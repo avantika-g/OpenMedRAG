@@ -38,7 +38,7 @@ def sample_part(dataset):
 
     sampled = []
     for title, examples in grouped.items():
-        n = len(examples) // 200
+        n = len(examples) # // 200
         sampled.extend(examples[:n])
     return Dataset.from_list(sampled)
 
@@ -102,7 +102,7 @@ model = RagSequenceForGeneration.from_pretrained("facebook/rag-sequence-nq", ret
 def get_textbook_group(doc_id):
     return "_".join(doc_id.split("_")[:-1]) if "_" in doc_id else doc_id
 
-def precision_at_k_with_partial_credit(gold_doc_ids, retrieved_doc_ids, k=5):
+def precision_k(gold_doc_ids, retrieved_doc_ids, k=5):
     gold_groups = {get_textbook_group(doc_id) for doc_id in gold_doc_ids}
     score = 0.0
 
@@ -113,7 +113,7 @@ def precision_at_k_with_partial_credit(gold_doc_ids, retrieved_doc_ids, k=5):
             score += 0.5  # partial credit for correct textbook
     return score / k
 
-def reciprocal_rank_with_partial_credit(gold_doc_ids, retrieved_doc_ids):
+def mrr(gold_doc_ids, retrieved_doc_ids):
     gold_groups = {get_textbook_group(doc_id) for doc_id in gold_doc_ids}
 
     for rank, doc_id in enumerate(retrieved_doc_ids, start=1):
@@ -129,7 +129,7 @@ index_to_doc_id = [example["id"] for example in sampled_dataset]
 nli_model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
 nli_tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli")
 
-def compute_faithfulness_with_context(answer, context):
+def compute_faithfulness(answer, context):
     inputs = nli_tokenizer(context, answer, return_tensors="pt", truncation=True)
     with torch.no_grad():
         logits = nli_model(**inputs).logits
@@ -230,11 +230,11 @@ for qa in tqdm(qa_data): # small subset: for qa in tqdm(qa_data[:5])
   top_doc_id = index_to_doc_id[top_doc_index]
   top_context = sampled_dataset[top_doc_index]["text"]
 
-  faithfulness = compute_faithfulness_with_context(generated_answer, top_context)
+  faithfulness = compute_faithfulness(generated_answer, top_context)
 
   doc_ids_converted = [index_to_doc_id[idx] for idx in retrieved_doc_ids]
-  p_at_5 = precision_at_k_with_partial_credit(gold_doc_ids, doc_ids_converted, k=5)
-  rr = reciprocal_rank_with_partial_credit(gold_doc_ids, doc_ids_converted)
+  p_at_5 = precision_k(gold_doc_ids, doc_ids_converted, k=5)
+  rr = mrr(gold_doc_ids, doc_ids_converted)
 
   result = {
       "question": question,
