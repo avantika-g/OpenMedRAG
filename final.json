@@ -1,0 +1,1562 @@
+[
+    {
+        "question": "What are some of the diverse functions of proteins in living systems?",
+        "answer": "Proteins are the most abundant and functionally diverse molecules in living systems. They serve as enzymes and polypeptide hormones that direct and regulate metabolism in the body. Contractile proteins in muscle permit movement. In bone, collagen forms a framework for calcium phosphate crystal deposition. In blood, proteins like hemoglobin and albumin transport essential molecules, while immunoglobulins fight infectious bacteria and viruses.",
+        "doc_id": "Biochemistry_Lippincott_1"
+    },
+    {
+        "question": "How many standard amino acids are found in mammalian proteins, and what defines a standard amino acid?",
+        "answer": "There are 20 standard amino acids commonly found as constituents of mammalian proteins. These standard amino acids are the only amino acids that are encoded by DNA, the genetic material in the cell. Nonstandard amino acids are produced by chemical modification of standard amino acids.",
+        "doc_id": "Biochemistry_Lippincott_4"
+    },
+    {
+        "question": "Describe the basic structural components of an amino acid.",
+        "answer": "Each amino acid has a carboxyl group, a primary amino group (except for proline, which has a secondary amino group), and a distinctive side chain (R group) bonded to the α carbon atom. At physiologic pH (~7.4), the carboxyl group is dissociated, forming the negatively charged carboxylate ion (−COO−), and the amino group is protonated (−NH3+).",
+        "doc_id": "Biochemistry_Lippincott_4"
+    },
+    {
+        "question": "Explain the hydrophobic effect in protein structure and its importance.",
+        "answer": "The hydrophobic effect occurs when the side chains of nonpolar amino acids tend to cluster together in the interior of a protein in aqueous solutions. This phenomenon happens because the nonpolar R groups act like oil droplets that coalesce in an aqueous environment. By filling up the interior of the folded protein, these nonpolar R groups help give the protein its three-dimensional shape. For proteins located in hydrophobic environments like membranes, the nonpolar R groups are found on the outside surface, interacting with the lipid environment.",
+        "doc_id": "Biochemistry_Lippincott_7"
+    },
+    {
+        "question": "What makes proline unique among amino acids, and how does this affect protein structure?",
+        "answer": "Proline differs from other amino acids in that its side chain and α-amino nitrogen form a rigid, five-membered ring structure. This gives proline a secondary (rather than a primary) amino group, and it is frequently referred to as an \"imino acid.\" The unique geometry of proline contributes to the formation of the fibrous structure of collagen, but it interrupts the α-helices found in globular proteins.",
+        "doc_id": "Biochemistry_Lippincott_8"
+    },
+    {
+        "question": "What is a disulfide bond, and what is its significance in protein structure?",
+        "answer": "A disulfide bond is a covalent cross-link that forms when the sulfhydryl (thiol) groups (−SH) of two cysteine residues are oxidized, creating a −S−S− linkage. Two disulfide-linked cysteines are referred to as cystine. Disulfide bonds are important for protein stability, particularly in extracellular proteins like albumin, a blood protein that functions as a transporter for various molecules.",
+        "doc_id": "Biochemistry_Lippincott_9, Biochemistry_Lippincott_10"
+    },
+    {
+        "question": "Which amino acid has a side chain that can ionize within the physiologic pH range, and why is this property important?",
+        "answer": "Histidine is the only amino acid with a side chain that can ionize within the physiologic pH range. When incorporated into a protein, its R group can be either positively charged (protonated) or neutral, depending on the ionic environment provided by the protein. This important property contributes to the buffering role histidine plays in the functioning of proteins such as hemoglobin.",
+        "doc_id": "Biochemistry_Lippincott_11"
+    },
+    {
+        "question": "Explain the system for one-letter symbols used to designate amino acids.",
+        "answer": "The one-letter codes for amino acids follow several rules: (1) If only one amino acid begins with a given letter, then that letter is used as its symbol (e.g., V = valine). (2) If more than one amino acid begins with a particular letter, the most common of these amino acids receives this letter as its symbol (e.g., G = glycine). (3) Some one-letter symbols sound like the amino acid they represent (e.g., F = phenylalanine, W = tryptophan). (4) For the remaining amino acids, a one-letter symbol is assigned that is as close in the alphabet as possible to the initial letter of the amino acid (e.g., K = lysine).",
+        "doc_id": "Biochemistry_Lippincott_12"
+    },
+    {
+        "question": "What are D and L amino acid isomers, and which form is found in mammalian proteins?",
+        "answer": "Because the α-carbon of an amino acid is attached to four different chemical groups (with glycine as an exception), it is an asymmetric (chiral) atom. Amino acids with a chiral α-carbon exist in two different isomeric forms, designated D and L, which are enantiomers or mirror images. All amino acids found in mammalian proteins are of the L configuration. D-amino acids are found in some antibiotics and in bacterial cell walls.",
+        "doc_id": "Biochemistry_Lippincott_14"
+    },
+    {
+        "question": "What is the Henderson-Hasselbalch equation, and how is it applied to amino acids?",
+        "answer": "The Henderson-Hasselbalch equation (pH = pKa + log[A−]/[HA]) describes the quantitative relationship between the pH of a solution and the concentration of a weak acid (HA) and its conjugate base (A−). For amino acids, this equation can be used to analyze the dissociation of their ionizable groups. For example, the dissociation constant of the carboxyl group of an amino acid is called K1, and the equation becomes: pH = pK1 + log[II]/[I], where I is the fully protonated form and II is the isoelectric form of the amino acid.",
+        "doc_id": "Biochemistry_Lippincott_16, Biochemistry_Lippincott_19"
+    },
+    {
+        "question": "Define the isoelectric point (pI) of an amino acid and explain how it is calculated for an amino acid with two dissociable groups.",
+        "answer": "The isoelectric point (pI) is the pH at which an amino acid is electrically neutral, meaning the sum of the positive charges equals the sum of the negative charges. For an amino acid such as alanine that has only two dissociable hydrogens (one from the α-carboxyl and one from the α-amino group), the pI is the average of pK1 and pK2 (pI = [pK1 + pK2]/2). The pI corresponds to the pH at which the zwitterionic form (with a net charge of zero) predominates and at which there are also equal amounts of the positively charged and negatively charged forms.",
+        "doc_id": "Biochemistry_Lippincott_22"
+    },
+    {
+        "question": "How do buffers work, and what makes amino acids potential buffer components?",
+        "answer": "A buffer is a solution that resists change in pH following the addition of an acid or base. It can be created by mixing a weak acid (HA) with its conjugate base (A−). Maximum buffering capacity occurs at a pH equal to the pKa. Amino acids can act as buffers because they contain weakly acidic α-carboxyl groups and weakly basic α-amino groups. Additionally, some amino acids contain ionizable groups in their side chains. For example, in alanine, the −COOH/−COO− pair can serve as a buffer in the pH region around pK1, and the −NH3+/−NH2 pair can buffer in the region around pK2.",
+        "doc_id": "Biochemistry_Lippincott_15, Biochemistry_Lippincott_17, Biochemistry_Lippincott_21"
+    },
+    {
+        "question": "What is anatomy?",
+        "answer": "Anatomy includes those structures that can be seen grossly (without the aid of magnification) and microscopically (with the aid of magnification). Typically, when used by itself, the term anatomy tends to mean gross or macroscopic anatomy—that is, the study of structures that can be seen without using a microscope.",
+        "doc_id": "Anatomy_Gray_0"
+    },
+    {
+        "question": "What is microscopic anatomy also called?",
+        "answer": "Microscopic anatomy, also called histology, is the study of cells and tissues using a microscope.",
+        "doc_id": "Anatomy_Gray_0"
+    },
+    {
+        "question": "Why is anatomy important for medicine?",
+        "answer": "Anatomy forms the basis for the practice of medicine. Anatomy leads the physician toward an understanding of a patient's disease, whether he or she is carrying out a physical examination or using the most advanced imaging techniques.",
+        "doc_id": "Anatomy_Gray_0"
+    },
+    {
+        "question": "What are the primary techniques a student should use to learn anatomy?",
+        "answer": "Observation and visualization are the primary techniques a student should use to learn anatomy. Anatomy is much more than just memorization of lists of names.",
+        "doc_id": "Anatomy_Gray_1"
+    },
+    {
+        "question": "What is the etymology of the term 'anatomy'?",
+        "answer": "The term anatomy is derived from the Greek word temnein, meaning 'to cut.'",
+        "doc_id": "Anatomy_Gray_2"
+    },
+    {
+        "question": "What are the two main approaches to studying anatomy?",
+        "answer": "Anatomy can be studied following either a regional or a systemic approach.",
+        "doc_id": "Anatomy_Gray_2"
+    },
+    {
+        "question": "What is a regional approach to studying anatomy?",
+        "answer": "With a regional approach, each region of the body is studied separately and all aspects of that region are studied at the same time. For example, if the thorax is to be studied, all of its structures are examined, including the vasculature, the nerves, the bones, the muscles, and all other structures and organs located in that region.",
+        "doc_id": "Anatomy_Gray_2 and Anatomy_Gray_3"
+    },
+    {
+        "question": "What is a systemic approach to studying anatomy?",
+        "answer": "In a systemic approach, each system of the body is studied and followed throughout the entire body. For example, a study of the cardiovascular system looks at the heart and all of the blood vessels in the body.",
+        "doc_id": "Anatomy_Gray_3"
+    },
+    {
+        "question": "What is the anatomical position?",
+        "answer": "The anatomical position is the standard reference position of the body used to describe the location of structures. The body is in the anatomical position when standing upright with feet together, hands by the side and face looking forward. The mouth is closed and the facial expression is neutral.",
+        "doc_id": "Anatomy_Gray_5"
+    },
+    {
+        "question": "What are the three major groups of planes that pass through the body in the anatomical position?",
+        "answer": "Coronal planes (dividing the body into anterior and posterior parts), sagittal planes (dividing the body into right and left parts), and transverse/horizontal/axial planes (dividing the body into superior and inferior parts).",
+        "doc_id": "Anatomy_Gray_6"
+    },
+    {
+        "question": "What do the terms 'anterior' and 'posterior' describe?",
+        "answer": "Anterior (or ventral) and posterior (or dorsal) describe the position of structures relative to the 'front' and 'back' of the body.",
+        "doc_id": "Anatomy_Gray_7"
+    },
+    {
+        "question": "What do the terms 'medial' and 'lateral' describe?",
+        "answer": "Medial and lateral describe the position of structures relative to the median sagittal plane and the sides of the body.",
+        "doc_id": "Anatomy_Gray_7"
+    },
+    {
+        "question": "What do the terms 'superior' and 'inferior' describe?",
+        "answer": "Superior and inferior describe structures in reference to the vertical axis of the body.",
+        "doc_id": "Anatomy_Gray_7"
+    },
+    {
+        "question": "What do the terms 'proximal' and 'distal' refer to?",
+        "answer": "Proximal and distal are used with reference to being closer to or farther from a structure's origin, particularly in the limbs.",
+        "doc_id": "Anatomy_Gray_8"
+    },
+    {
+        "question": "What are alternative terms for 'superior' and 'inferior'?",
+        "answer": "Cranial (toward the head) and caudal (toward the tail) are sometimes used instead of superior and inferior, respectively.",
+        "doc_id": "Anatomy_Gray_9"
+    },
+    {
+        "question": "What do the terms 'superficial' and 'deep' describe?",
+        "answer": "These terms are used to describe the relative positions of two structures with respect to the surface of the body. For example, the sternum is superficial to the heart, and the stomach is deep to the abdominal wall.",
+        "doc_id": "Anatomy_Gray_9"
+    },
+    {
+        "question": "Who produced the first radiographic exposure and when?",
+        "answer": "In 1895 Wilhelm Roentgen used the X-rays from a cathode ray tube to expose a photographic plate and produce the first radiographic exposure of his wife's hand.",
+        "doc_id": "Anatomy_Gray_10"
+    },
+    {
+        "question": "How do different tissues appear on an X-ray film?",
+        "answer": "When the photographic film is developed, bone appears white on the film because this region of the film has been exposed to the least amount of X-rays. Air appears dark on the film because these regions were exposed to the greatest number of X-rays.",
+        "doc_id": "Anatomy_Gray_11"
+    },
+    {
+        "question": "What is a double-contrast study?",
+        "answer": "It is common to add air to the barium sulfate suspension, by either ingesting 'fizzy' granules or directly instilling air into the body cavity, as in a barium enema. This is known as a double-contrast (air/barium) study.",
+        "doc_id": "Anatomy_Gray_13"
+    },
+    {
+        "question": "Why is iodine chosen as a contrast agent for intra-arterial and intravenous injections?",
+        "answer": "Iodine is chosen because it has a relatively high atomic mass and so markedly attenuates X-rays, but also, importantly, it is naturally excreted via the urinary system.",
+        "doc_id": "Anatomy_Gray_14"
+    },
+    {
+        "question": "What is subtraction angiography?",
+        "answer": "It is a technique where one or two images are obtained before the injection of contrast media. These images are inverted. After injection of the contrast media into the vessels, a further series of images are obtained. By adding the 'negative precontrast image' to the positive postcontrast images, the bones and soft tissues are subtracted to produce a solitary image of contrast only.",
+        "doc_id": "Anatomy_Gray_15"
+    },
+    {
+        "question": "What is ultrasonography and how does it work?",
+        "answer": "Ultrasound is a very high frequency sound wave generated by piezoelectric materials. The piezoelectric material can also receive the sound waves that bounce back from the internal organs. The sound waves are then interpreted by a powerful computer, and a real-time image is produced on the display panel.",
+        "doc_id": "Anatomy_Gray_16"
+    },
+    {
+        "question": "What is Doppler ultrasound used for?",
+        "answer": "Doppler ultrasound enables determination of flow, its direction, and its velocity within a vessel. Precise measurements of blood flow and blood velocity can be obtained, which in turn can indicate sites of blockage in blood vessels.",
+        "doc_id": "Anatomy_Gray_18"
+    },
+    {
+        "question": "Who invented computed tomography (CT) and when?",
+        "answer": "Computed tomography (CT) was invented in the 1970s by Sir Godfrey Hounsfield, who was awarded the Nobel Prize in Medicine in 1979.",
+        "doc_id": "Anatomy_Gray_18"
+    },
+    {
+        "question": "What are the four key skills that form the foundation of communication in patient care?",
+        "answer": "The foundation of communication is based on four key skills: empathy, attentive listening, expert knowledge, and the ability to establish rapport. These skills can be learned and refined.",
+        "doc_id": "Gynecology_Novak_9"
+    },
+    {
+        "question": "According to the text, why should physicians avoid being judgmental?",
+        "answer": "The physician should avoid being judgmental, particularly with respect to questions about sexual practices and sexual orientation.",
+        "doc_id": "Gynecology_Novak_0"
+    },
+    {
+        "question": "What percentage of Americans speak a language other than English at home?",
+        "answer": "More than 18% of Americans speak a language other than English at home, and over 8% have limited English proficiency.",
+        "doc_id": "Gynecology_Novak_10"
+    },
+    {
+        "question": "What are some external variables that influence a patient's care?",
+        "answer": "External variables include the patient's 'significant others'—family, friends, personal relationships, as well as psychological, genetic, biologic, social, and economic issues. Cultural factors, socioeconomic status, religion, ethnicity, language, age, and sexual orientation are also important considerations.",
+        "doc_id": "Gynecology_Novak_4"
+    },
+    {
+        "question": "How does patient participation in decision making affect their response to treatment?",
+        "answer": "If the patient perceives that she participates in decision making and is given as much information as possible, she will respond to the mutually derived treatment plan with lower levels of anxiety and depression, embracing it as a collaborative plan of action.",
+        "doc_id": "Gynecology_Novak_18"
+    },
+    {
+        "question": "When should a patient be informed of abnormal findings during an examination?",
+        "answer": "When there is a possible abnormality, the patient should be informed immediately; this discussion should take place after the examination, with the patient clothed.",
+        "doc_id": "Gynecology_Novak_2"
+    },
+    {
+        "question": "What federal act established national standards to protect personal health information?",
+        "answer": "The Health Insurance Portability and Accountability Act (HIPAA), which took effect in 2003, established national standards intended to protect the privacy of personal health information.",
+        "doc_id": "Gynecology_Novak_12"
+    },
+    {
+        "question": "How has the traditional role of physicians changed in patient-physician relationships?",
+        "answer": "The traditional role of the physician was paternalistic, with the physician expected to deliver direct commands or 'orders' and specific guidance on all matters. Now patients appropriately demand and expect more balanced communication with their physicians.",
+        "doc_id": "Gynecology_Novak_13"
+    },
+    {
+        "question": "What are the effects of language barriers in healthcare?",
+        "answer": "Language barriers are associated with limited health education, compromised interpersonal care, and lower patient satisfaction in health care encounters.",
+        "doc_id": "Gynecology_Novak_10"
+    },
+    {
+        "question": "What is the relationship between good communication and health maintenance?",
+        "answer": "Health maintenance can be linked directly to the influence of positive interactions between the physician and patient. Women who are comfortable with their physician may be more likely to raise issues or concerns, convey information about potential health risks, and be more receptive to the physician's recommendations.",
+        "doc_id": "Gynecology_Novak_24"
+    },
+    {
+        "question": "What behaviors by physicians might suggest disrespect toward patients?",
+        "answer": "Actions such as failing to maintain scheduled appointment times, routinely holding substantive discussions when the patient is undressed, or speaking to her from a standing position while she is lying down or in the lithotomy position can emphasize the imbalance of power in the relationship.",
+        "doc_id": "Gynecology_Novak_25"
+    },
+    {
+        "question": "How should physicians approach patients with specific medical knowledge gained from electronic sources?",
+        "answer": "The physician must avoid feeling defensive. While patients may have specific knowledge about their condition, they often lack broader context, awareness of source reliability, ability to assess studies in historical context, knowledge of drug interactions, ability to maintain objective distance, and experience in the art and science of medicine.",
+        "doc_id": "Gynecology_Novak_15"
+    },
+    {
+        "question": "What does the Hippocratic Oath demand regarding patient information?",
+        "answer": "The Hippocratic Oath demands that physicians be circumspect with all patient-related information.",
+        "doc_id": "Gynecology_Novak_0"
+    },
+    {
+        "question": "How do different communication styles affect patient assessment?",
+        "answer": "Different styles of communication may affect the physician's ability to perceive the patient's status and to achieve the goal of optimal assessment and successful treatment.",
+        "doc_id": "Gynecology_Novak_1"
+    },
+    {
+        "question": "What is required for effective physician-patient communication?",
+        "answer": "For physician-patient communication to be effective, the patient must feel that she is able to discuss her problems in depth and in confidence.",
+        "doc_id": "Gynecology_Novak_18"
+    },
+    {
+        "question": "Who is credited with the beginning of immunology as a science?",
+        "answer": "Edward Jenner for his work in the late 18th century",
+        "doc_id": "Immunology_Janeway_15"
+    },
+    {
+        "question": "What is adaptive immunity?",
+        "answer": "A specific response against infection by potential pathogens that develops during the lifetime of an individual as an adaptation to infection with that pathogen",
+        "doc_id": "Immunology_Janeway_19"
+    },
+    {
+        "question": "What cells did Elie Metchnikoff discover that provide nonspecific defense against infection?",
+        "answer": "Phagocytic cells called macrophages",
+        "doc_id": "Immunology_Janeway_19"
+    },
+    {
+        "question": "What are the four broad categories of disease-causing microorganisms?",
+        "answer": "Viruses, bacteria and archaea, fungi, and parasites",
+        "doc_id": "Immunology_Janeway_25"
+    },
+    {
+        "question": "What is the term for the microbial communities that colonize tissues without causing damage to the host?",
+        "answer": "Microbiome or commensal microorganisms",
+        "doc_id": "Immunology_Janeway_27"
+    },
+    {
+        "question": "What happens when CD28-dependent co-stimulation of activated T cells occurs?",
+        "answer": "It induces expression of interleukin-2 and the high-affinity IL-2 receptor",
+        "doc_id": "Immunology_Janeway_0"
+    },
+    {
+        "question": "How do cytotoxic T cells induce death in target cells?",
+        "answer": "They induce target cells to undergo pathways of apoptosis",
+        "doc_id": "Immunology_Janeway_2"
+    },
+    {
+        "question": "What is the intrinsic pathway of apoptosis mediated by?",
+        "answer": "The release of cytochrome c from mitochondria",
+        "doc_id": "Immunology_Janeway_2"
+    },
+    {
+        "question": "What cells arise from the common lymphoid progenitor?",
+        "answer": "The lymphoid lineage of white blood cells including innate lymphoid cells (ILCs), natural killer (NK) cells, and the T and B lymphocytes",
+        "doc_id": "Immunology_Janeway_28"
+    },
+    {
+        "question": "What major medical achievement related to immunology was announced by the World Health Organization in 1979?",
+        "answer": "The eradication of smallpox",
+        "doc_id": "Immunology_Janeway_16"
+    },
+    {
+        "question": "What are the cells referred to as granulocytes?",
+        "answer": "Neutrophils, eosinophils, and basophils",
+        "doc_id": "Immunology_Janeway_29"
+    },
+    {
+        "question": "What differentiates T and B lymphocytes from other leukocytes?",
+        "answer": "They have antigen receptors",
+        "doc_id": "Immunology_Janeway_28"
+    },
+    {
+        "question": "What two scientists shared the 1908 Nobel Prize for their work on immunity?",
+        "answer": "Metchnikoff and Ehrlich",
+        "doc_id": "Immunology_Janeway_20"
+    },
+    {
+        "question": "What types of cells contribute to both innate and adaptive immune responses?",
+        "answer": "White blood cells or leukocytes",
+        "doc_id": "Immunology_Janeway_22"
+    },
+    {
+        "question": "Where do most cells of the immune system arise from?",
+        "answer": "The bone marrow",
+        "doc_id": "Immunology_Janeway_22"
+    },
+    {
+        "question": "What are the primary challenges affecting children's health outcomes according to the text?",
+        "answer": "According to the text, the primary challenges affecting children's health outcomes include access to health care, health disparities, supporting their social, cognitive, and emotional lives in the context of families and communities, and addressing environmental factors, especially poverty.",
+        "doc_id": "Pediatrics_Nelson_1"
+    },
+    {
+        "question": "What percentage of children are estimated to have some mental health problems, and how many of these are severe?",
+        "answer": "Currently 20% to 25% of children are estimated to have some mental health problems, with 5% to 6% of these problems being severe.",
+        "doc_id": "Pediatrics_Nelson_19"
+    },
+    {
+        "question": "What were the top causes of death for children aged 15-24 years in the United States according to the data?",
+        "answer": "The causes of death for children aged 15-24 years in the United States, in order of frequency, were unintentional injuries (accidents), homicide, suicide, malignant neoplasms, and diseases of the heart.",
+        "doc_id": "Pediatrics_Nelson_11"
+    },
+    {
+        "question": "How has the prevalence of overweight children changed over time according to the text?",
+        "answer": "The prevalence of overweight children 6 to 19 years of age has increased more than fourfold from 4% in 1965 to over 18% in 2010. Currently it is estimated that 32% of children 2 to 19 years of age are overweight or obese.",
+        "doc_id": "Pediatrics_Nelson_12"
+    },
+    {
+        "question": "What is the main challenge for pediatricians according to the text?",
+        "answer": "The challenge for pediatricians is to deliver care that is socially equitable; integrates psychosocial, cultural, and ethical issues into practice; and ensures that health care is available to all children.",
+        "doc_id": "Pediatrics_Nelson_0"
+    },
+    {
+        "question": "What percentage of pediatricians identify mental health problems in children?",
+        "answer": "Unfortunately it is estimated that pediatricians identify only 50% of mental health problems in children.",
+        "doc_id": "Pediatrics_Nelson_19"
+    },
+    {
+        "question": "What is the estimated percentage of children using complementary and alternative medicine (CAM)?",
+        "answer": "It is estimated that 20% to 30% of all children and 50% to 75% of adolescents use CAM. Of children with chronic illness, 30% to 70% use CAM therapies, especially for asthma and cystic fibrosis.",
+        "doc_id": "Pediatrics_Nelson_23"
+    },
+    {
+        "question": "What are the components of professionalism according to the American Board of Pediatrics and American Academy of Pediatrics?",
+        "answer": "The components of professionalism include honesty/integrity, reliability/responsibility, respect for others, compassion/empathy, self-improvement, self-awareness/knowledge of limits, communication/collaboration, and altruism/advocacy.",
+        "doc_id": "Pediatrics_Nelson_28,Pediatrics_Nelson_29,Pediatrics_Nelson_30"
+    },
+    {
+        "question": "How does chronic illness affect hospitalization rates for children?",
+        "answer": "Chronic illness is now the most common reason for hospital admissions among children (excluding trauma and newborn admissions). From middle school and beyond, mental illness is the main non-childbirth-related reason for hospitalization among children.",
+        "doc_id": "Pediatrics_Nelson_3"
+    },
+    {
+        "question": "What are some of the scientific advances that have an impact on the role of pediatricians?",
+        "answer": "Scientific advances include newer genetic technologies that allow diagnosis of diseases at the molecular level, aid in selection of medications and therapies, and provide information on prognosis; prenatal diagnosis and newborn screening that improve the accuracy of early diagnosis; and functional magnetic resonance imaging that allows greater understanding of psychiatric and neurologic problems.",
+        "doc_id": "Pediatrics_Nelson_2"
+    },
+    {
+        "question": "What is the infant mortality rate in the United States and how does it compare internationally?",
+        "answer": "In 2011 the overall infant mortality rate was 6.05 per 1000 live births with rates per 1000 live births of 5.05 for non-Hispanic whites, 5.27 for Hispanic infants, and 11.42 for black infants. In 2008 the United States ranked thirty-first in infant mortality.",
+        "doc_id": "Pediatrics_Nelson_8"
+    },
+    {
+        "question": "What percentage of women initiate breastfeeding and how many continue at 6 and 12 months?",
+        "answer": "Seventy-seven percent of women initiate breastfeeding following the birth of their infants. Only 47% of women continue breastfeeding for 6 months, with about 25% continuing at 12 months.",
+        "doc_id": "Pediatrics_Nelson_9"
+    },
+    {
+        "question": "What are the main ethical principles involved in resolving value differences in healthcare?",
+        "answer": "The main ethical principles are autonomy (respect for persons), paternalism (when appropriate), beneficence (doing good), nonmaleficence (doing no harm or as little harm as possible), and justice (equality in distribution of services and burdens).",
+        "doc_id": "Pediatrics_Nelson_33,Pediatrics_Nelson_35"
+    },
+    {
+        "question": "How many children are in the foster care system and what challenges do they face when leaving the system?",
+        "answer": "Currently there are about 400,000 children in the foster care system. Approximately 25,000 of these children must leave the child welfare system each year. Of those who leave, 25% to 50% experience homelessness and/or joblessness and will not graduate from high school. These children have a high incidence of mental health problems, substance abuse, and early pregnancy for females.",
+        "doc_id": "Pediatrics_Nelson_12"
+    },
+    {
+        "question": "What influence does culture have on healthcare according to the text?",
+        "answer": "Culture encompasses concepts, beliefs, values, and standards of behavior that give order to experiences, offer sense and purpose to interactions, and provide meaning for lives. The growing diversity requires healthcare workers to understand the impact of health, illness, and treatment from patients' perspectives through open-ended questions and addressing religious/spiritual approaches to healthcare.",
+        "doc_id": "Pediatrics_Nelson_21"
+    },
+    {
+        "question": "What is the fundamental unit of life?",
+        "answer": "Cells are the fundamental units of life.",
+        "doc_id": "Cell_Biology_Alberts_2"
+    },
+    {
+        "question": "What molecule stores hereditary information in all living cells on Earth?",
+        "answer": "All living cells on Earth store their hereditary information in the form of double-stranded molecules of DNA.",
+        "doc_id": "Cell_Biology_Alberts_8"
+    },
+    {
+        "question": "What are the four types of nucleotides that form DNA?",
+        "answer": "The four types of nucleotides in DNA are adenine (A), guanine (G), cytosine (C), and thymine (T).",
+        "doc_id": "Cell_Biology_Alberts_10"
+    },
+    {
+        "question": "How does base-pairing work in DNA?",
+        "answer": "In DNA base-pairing, A binds to T, and C binds to G.",
+        "doc_id": "Cell_Biology_Alberts_13"
+    },
+    {
+        "question": "What is the process called when DNA is used as a template to create RNA?",
+        "answer": "The process is called transcription, where segments of the DNA sequence are used as templates for the synthesis of RNA molecules.",
+        "doc_id": "Cell_Biology_Alberts_15"
+    },
+    {
+        "question": "How does RNA differ from DNA in terms of structure?",
+        "answer": "In RNA, the backbone is formed of ribose instead of deoxyribose, and it uses uracil (U) in place of thymine (T). The other three bases—A, C, and G—are the same as in DNA.",
+        "doc_id": "Cell_Biology_Alberts_16"
+    },
+    {
+        "question": "What is the function of messenger RNA (mRNA)?",
+        "answer": "Messenger RNA (mRNA) molecules guide the synthesis of proteins according to the genetic instructions stored in the DNA.",
+        "doc_id": "Cell_Biology_Alberts_18"
+    },
+    {
+        "question": "How many types of amino acids are used in proteins?",
+        "answer": "There are 20 types of amino acids used in protein synthesis.",
+        "doc_id": "Cell_Biology_Alberts_25"
+    },
+    {
+        "question": "How is the genetic code read during protein synthesis?",
+        "answer": "The information in the sequence of a messenger RNA molecule is read out in groups of three nucleotides at a time; each triplet of nucleotides, or codon, specifies a single amino acid in a corresponding protein.",
+        "doc_id": "Cell_Biology_Alberts_28"
+    },
+    {
+        "question": "What is a gene?",
+        "answer": "A gene is defined as the segment of DNA sequence corresponding to a single protein or set of alternative protein variants or to a single catalytic, regulatory, or structural RNA molecule.",
+        "doc_id": "Cell_Biology_Alberts_30"
+    },
+    {
+        "question": "What is the structure that reads the genetic code and synthesizes proteins?",
+        "answer": "The ribosome, a large multimolecular machine composed of both protein and ribosomal RNA, reads the genetic code and synthesizes proteins.",
+        "doc_id": "Cell_Biology_Alberts_29"
+    },
+    {
+        "question": "What molecules function as intermediaries between DNA and proteins?",
+        "answer": "RNA molecules function as intermediaries in the transfer of genetic information from DNA to proteins.",
+        "doc_id": "Cell_Biology_Alberts_18"
+    },
+    {
+        "question": "What is the primary function of proteins in cells?",
+        "answer": "Proteins act as catalysts directing the vast majority of chemical processes in the cell, as well as maintaining structures, generating movements, sensing signals, and putting the cell's genetic information into action.",
+        "doc_id": "Cell_Biology_Alberts_26"
+    },
+    {
+        "question": "How many possible codons exist in the genetic code?",
+        "answer": "There are 64 possible codons that can be formed from the four nucleotides in groups of three (43).",
+        "doc_id": "Cell_Biology_Alberts_28"
+    },
+    {
+        "question": "What did E.B. Wilson say about cells?",
+        "answer": "E.B. Wilson stated that \"the key to every biological problem must finally be sought in the cell; for every living organism is, or at some time has been, a cell.\"",
+        "doc_id": "Cell_Biology_Alberts_2"
+    },
+    {
+        "question": "What is the most commonly used fixative in histology?",
+        "answer": "Formalin, a 37% aqueous solution of formaldehyde, at various dilutions and in combination with other chemicals and buffers, is the most commonly used fixative.",
+        "doc_id": "Histology_Ross_7"
+    },
+    {
+        "question": "What are the three main steps involved in preparing a tissue sample for routine light microscopy?",
+        "answer": "The three main steps are: 1) fixation to preserve structure, 2) embedding in paraffin to permit sectioning, and 3) staining to permit examination.",
+        "doc_id": "Histology_Ross_5"
+    },
+    {
+        "question": "What is the purpose of fixation in histology?",
+        "answer": "Fixation is used to terminate cell metabolism, prevent enzymatic degradation of cells and tissues by autolysis (self-digestion), kill pathogenic microorganisms such as bacteria, fungi, and viruses, and harden the tissue as a result of either cross-linking or denaturing protein molecules.",
+        "doc_id": "Histology_Ross_6"
+    },
+    {
+        "question": "What is the typical range for section thickness when preparing specimens?",
+        "answer": "Specimens are typically sliced in the range of 5 to 15 μm (micrometers).",
+        "doc_id": "Histology_Ross_8"
+    },
+    {
+        "question": "What is a limitation of formaldehyde as a fixative?",
+        "answer": "Formaldehyde does not react with lipids, so it is a poor fixative of cell membranes.",
+        "doc_id": "Histology_Ross_7"
+    },
+    {
+        "question": "What is the primary staining combination used in routine histology?",
+        "answer": "Hematoxylin and eosin (H&E) staining is the most commonly used staining combination in routine histology.",
+        "doc_id": "Histology_Ross_5"
+    },
+    {
+        "question": "What does 'basophilia' refer to in histological staining?",
+        "answer": "Basophilia refers to the ability of anionic groups (components that carry a net negative charge) to react with a basic dye.",
+        "doc_id": "Histology_Ross_27"
+    },
+    {
+        "question": "What tissue components typically display basophilia?",
+        "answer": "Substances that display basophilia include heterochromatin and nucleoli of the nucleus, cytoplasmic components such as the ergastoplasm, and extracellular materials such as the complex carbohydrates of the matrix of cartilage.",
+        "doc_id": "Histology_Ross_31"
+    },
+    {
+        "question": "What is metachromasia in histological staining?",
+        "answer": "Metachromasia is when certain basic dyes react with tissue components that shift their normal color from blue to red or purple; this absorbance change occurs due to the presence of polyanions within the tissue.",
+        "doc_id": "Histology_Ross_32"
+    },
+    {
+        "question": "What are the three main steps involved in frozen section preparation?",
+        "answer": "The three main steps are: 1) Freezing the tissue sample using compressed carbon dioxide or immersion in cold fluid, 2) Sectioning the frozen tissue inside a cryostat, and 3) Staining the cut sections to differentiate cell nuclei from the rest of the tissue.",
+        "doc_id": "Histology_Ross_19"
+    },
+    {
+        "question": "What is the PAS reaction used for in histology?",
+        "answer": "The periodic acid–Schiff (PAS) reaction is used to stain carbohydrates and carbohydrate-rich macromolecules, including glycogen in cells, mucus in various cells and tissues, basement membrane that underlies epithelia, and reticular fibers in connective tissue.",
+        "doc_id": "Histology_Ross_33"
+    },
+    {
+        "question": "How does formaldehyde preserve tissue structure?",
+        "answer": "Formaldehyde preserves the general structure of the cell and extracellular components by reacting with the amino groups of proteins (most often cross-linked lysine residues).",
+        "doc_id": "Histology_Ross_7"
+    },
+    {
+        "question": "What components are typically lost during routine preparation of H&E-stained sections?",
+        "answer": "Components lost include small proteins, small nucleic acids like transfer RNA, neutral lipids, glycogen, proteoglycans and glycosaminoglycans, soluble components, ions, and small molecules.",
+        "doc_id": "Histology_Ross_23"
+    },
+    {
+        "question": "What is an acidic dye in histology?",
+        "answer": "An acidic dye carries a net negative charge on its colored portion and is described by the general formula [Na+ dye-].",
+        "doc_id": "Histology_Ross_26"
+    },
+    {
+        "question": "What is the difference between an acidic dye and a basic dye?",
+        "answer": "An acidic dye carries a net negative charge on its colored portion [Na+ dye-], while a basic dye carries a net positive charge on its colored portion [dye+ Cl-].",
+        "doc_id": "Histology_Ross_26"
+    },
+    {
+        "question": "What is considered to be at the heart of successful patient care?",
+        "answer": "Cultivation of the intimate relationship between physician and patient",
+        "doc_id": "InternalMed_Harrison_3"
+    },
+    {
+        "question": "What should be a physician's approach to history-taking?",
+        "answer": "Patients should have the opportunity to tell their own story of the illness without frequent interruption, and should receive expressions of interest, encouragement, and empathy from the physician",
+        "doc_id": "InternalMed_Harrison_7"
+    },
+    {
+        "question": "What is the purpose of the physical examination?",
+        "answer": "To identify physical signs of disease",
+        "doc_id": "InternalMed_Harrison_11"
+    },
+    {
+        "question": "What is evidence-based medicine?",
+        "answer": "Making clinical decisions that are formally supported by data, preferably data derived from prospectively designed, randomized, controlled clinical trials",
+        "doc_id": "InternalMed_Harrison_22"
+    },
+    {
+        "question": "What are the limitations of clinical-practice guidelines?",
+        "answer": "They tend to oversimplify the complexities of medicine, groups with different perspectives may develop divergent recommendations, and they cannot account for the uniqueness of each individual and his or her illness",
+        "doc_id": "InternalMed_Harrison_23"
+    },
+    {
+        "question": "What is the Bayes' theorem used for in medical diagnosis?",
+        "answer": "It uses information on a test's sensitivity and specificity, in conjunction with the pretest probability of a diagnosis, to determine mathematically the posttest probability of the diagnosis",
+        "doc_id": "InternalMed_Harrison_28"
+    },
+    {
+        "question": "How should a physician approach an isolated laboratory abnormality in an otherwise healthy person?",
+        "answer": "Tests yielding abnormal results should be repeated to rule out laboratory error. If an abnormality is confirmed, it's important to consider its potential significance in the context of the patient's condition and other test results",
+        "doc_id": "InternalMed_Harrison_19"
+    },
+    {
+        "question": "What elements comprise a thorough examination of a new patient?",
+        "answer": "The examination must extend from head to toe in an objective search for abnormalities and should be systematic and performed consistently",
+        "doc_id": "InternalMed_Harrison_12"
+    },
+    {
+        "question": "What important advances in medical science are mentioned as changing the practice of medicine?",
+        "answer": "Molecular genetics, molecular and systems biology, molecular pathophysiology, sophisticated new imaging techniques, and advances in bioinformatics and information technology",
+        "doc_id": "InternalMed_Harrison_2"
+    },
+    {
+        "question": "What is mentioned as being more than just technique in eliciting signs of disease?",
+        "answer": "Having a mind alert to findings, rather than just keener eyes and ears or more sensitive fingers",
+        "doc_id": "InternalMed_Harrison_13"
+    },
+    {
+        "question": "What additional value does the act of examining (touching) a patient provide?",
+        "answer": "It offers an opportunity for communication and may have reassuring effects that foster the patient-physician relationship",
+        "doc_id": "InternalMed_Harrison_15"
+    },
+    {
+        "question": "What considerations should a physician make when ordering imaging studies?",
+        "answer": "Physicians must use these powerful diagnostic tools judiciously, always considering whether the results will alter management and benefit the patient",
+        "doc_id": "InternalMed_Harrison_21"
+    },
+    {
+        "question": "What information can a social history provide in medical diagnosis?",
+        "answer": "It can provide important insights into the types of diseases that should be considered",
+        "doc_id": "InternalMed_Harrison_8"
+    },
+    {
+        "question": "What is the importance of family history in medical diagnosis?",
+        "answer": "It not only identifies rare Mendelian disorders within a family but often reveals risk factors for common disorders, such as coronary heart disease, hypertension, and asthma",
+        "doc_id": "InternalMed_Harrison_8"
+    },
+    {
+        "question": "What factors must be considered when developing a differential diagnosis?",
+        "answer": "It requires not only a broad knowledge base but also the ability to assess the relative probabilities of various diseases",
+        "doc_id": "InternalMed_Harrison_25"
+    },
+    {
+        "question": "Who are the authors of the 11th edition of Adams and Victor's Principles of Neurology?",
+        "answer": "Allan H. Ropper, MD; Martin A. Samuels, MD; Joshua P. Klein, MD, PhD; Sashank Prasad, MD",
+        "doc_id": "Neurology_Adams_7"
+    },
+    {
+        "question": "What new condition is described as having become a major field of modern neurology that appeared briefly in the previous edition but not at all in the one before that?",
+        "answer": "Autoimmune encephalitis",
+        "doc_id": "Neurology_Adams_3"
+    },
+    {
+        "question": "According to the text, what percentage of the total global DALY is accounted for by neurologic disease?",
+        "answer": "8.6 percent",
+        "doc_id": "Neurology_Adams_25"
+    },
+    {
+        "question": "What are the five steps of the clinical method in neurology as described in the text?",
+        "answer": "1. Securing symptoms and signs through history and physical examination. 2. Interpreting symptoms and signs in terms of physiology and anatomy. 3. Localizing the disease process (anatomic or topographic diagnosis). 4. Deducing the etiologic diagnosis from the anatomic diagnosis and other medical data. 5. Assessing the degree of disability and determining if it's temporary or permanent (functional diagnosis).",
+        "doc_id": "Neurology_Adams_10, Neurology_Adams_11"
+    },
+    {
+        "question": "What is described as a method that is almost unique to neurology?",
+        "answer": "The method of localization",
+        "doc_id": "Neurology_Adams_8"
+    },
+    {
+        "question": "What case history is presented at the beginning of the text to illustrate the importance of neurological diagnosis?",
+        "answer": "A 19-year-old college sophomore who initially presented with paranoid traits, was diagnosed with schizophrenia, had a seizure, and was eventually found to have an anti-NMDA receptor antibody with an ovarian teratoma. After resection of the teratoma, her neuropsychiatric syndrome resolved.",
+        "doc_id": "Neurology_Adams_1, Neurology_Adams_2"
+    },
+    {
+        "question": "According to the Global Burden of Disease Study, which three neurologic conditions account for approximately two-thirds of the total global burden caused by neurologic conditions?",
+        "answer": "Hemorrhagic stroke, ischemic stroke, and meningitis",
+        "doc_id": "Neurology_Adams_25"
+    },
+    {
+        "question": "What are the five categories of cognitive mistakes that are common in arriving at a diagnosis according to Redelmeier?",
+        "answer": "1. The framing effect, 2. Anchoring heuristic, 3. Availability heuristic, 4. Representative heuristic, 5. Blind obedience",
+        "doc_id": "Neurology_Adams_21, Neurology_Adams_22"
+    },
+    {
+        "question": "What new coauthor is introduced in this edition of the textbook?",
+        "answer": "Dr. Sashank Prasad, a seasoned general neurologist with special training in neuro-ophthalmology and a director of their neurology training program",
+        "doc_id": "Neurology_Adams_6"
+    },
+    {
+        "question": "What is the aphorism mentioned in the text regarding difficult neurologic cases?",
+        "answer": "In a difficult neurologic case, a second examination is the most helpful diagnostic test",
+        "doc_id": "Neurology_Adams_18"
+    },
+    {
+        "question": "According to the text, what are the three most common neurologic diseases in the general population and their prevalence rates?",
+        "answer": "Migraine (121 per 1,000 persons in a year), epilepsy (7.1 per 1,000 persons in a year), and multiple sclerosis (0.9 per 1,000 persons in a year)",
+        "doc_id": "Neurology_Adams_27"
+    },
+    {
+        "question": "What important caution is given about taking a neurologic history?",
+        "answer": "Special care must be taken to avoid suggesting to the patient the symptoms that one seeks",
+        "doc_id": "Neurology_Adams_30"
+    },
+    {
+        "question": "Who wrote the introduction to the first edition of Williams' Obstetrics textbook?",
+        "answer": "J. Whitridge Williams (1903)",
+        "doc_id": "Obstentrics_Williams_0"
+    },
+    {
+        "question": "What is the primary concern of the science and clinical practice of obstetrics?",
+        "answer": "Human reproduction",
+        "doc_id": "Obstentrics_Williams_1"
+    },
+    {
+        "question": "What agency operates the oldest and most successful example of intergovernmental data sharing in public health?",
+        "answer": "The National Vital Statistics System of the United States",
+        "doc_id": "Obstentrics_Williams_2"
+    },
+    {
+        "question": "In what year was the Standard Certificate of Live Birth extensively revised in the United States?",
+        "answer": "2003",
+        "doc_id": "Obstentrics_Williams_3"
+    },
+    {
+        "question": "How many states had implemented the revised birth certificate by 2013?",
+        "answer": "35 states",
+        "doc_id": "Obstentrics_Williams_3"
+    },
+    {
+        "question": "What is the definition of the perinatal period?",
+        "answer": "The interval between the birth of a neonate born after 20 weeks' gestation and the 28 completed days after that birth",
+        "doc_id": "Obstentrics_Williams_6"
+    },
+    {
+        "question": "How is 'birth' defined according to the National Center for Health Statistics?",
+        "answer": "The complete expulsion or extraction from the mother of a fetus after 20 weeks' gestation",
+        "doc_id": "Obstentrics_Williams_6"
+    },
+    {
+        "question": "What is the definition of a 'live birth'?",
+        "answer": "The term used to record a birth whenever the newborn at or sometime after birth breathes spontaneously or shows any other sign of life such as a heartbeat or definite spontaneous movement of voluntary muscles",
+        "doc_id": "Obstentrics_Williams_7"
+    },
+    {
+        "question": "What is the definition of a 'low birthweight' newborn?",
+        "answer": "A newborn whose weight is <2500 g",
+        "doc_id": "Obstentrics_Williams_8"
+    },
+    {
+        "question": "What is the definition of a 'term neonate'?",
+        "answer": "A neonate born any time after 37 completed weeks of gestation and up until 42 completed weeks of gestation (260 to 294 days)",
+        "doc_id": "Obstentrics_Williams_9"
+    },
+    {
+        "question": "What is an 'abortus' as defined in the text?",
+        "answer": "A fetus or embryo removed or expelled from the uterus during the first half of gestation-20 weeks or less, or in the absence of accurate dating criteria, born weighing <500 g",
+        "doc_id": "Obstentrics_Williams_10"
+    },
+    {
+        "question": "What is a 'direct maternal death'?",
+        "answer": "The death of the mother that results from obstetrical complications of pregnancy, labor, or the puerperium and from interventions, omissions, incorrect treatment, or a chain of events resulting from any of these factors",
+        "doc_id": "Obstentrics_Williams_10"
+    },
+    {
+        "question": "What is an 'indirect maternal death'?",
+        "answer": "A maternal death that is not directly due to an obstetrical cause. Death results from previously existing disease or a disease developing during pregnancy, labor, or the puerperium that was aggravated by maternal physiological adaptation to pregnancy",
+        "doc_id": "Obstentrics_Williams_11"
+    },
+    {
+        "question": "What was the fertility rate of women aged 15 to 44 years in the United States in 2015?",
+        "answer": "62.5 live births per 1000 women",
+        "doc_id": "Obstentrics_Williams_14"
+    },
+    {
+        "question": "According to the Guttmacher Institute, what percentage of births in the United States are unintended at the time of conception?",
+        "answer": "45 percent",
+        "doc_id": "Obstentrics_Williams_15"
+    },
+    {
+        "question": "What was the perinatal mortality rate in the United States in 2013?",
+        "answer": "9.98 per 1000 births",
+        "doc_id": "Obstentrics_Williams_16"
+    },
+    {
+        "question": "What were the three leading causes of infant death according to the text?",
+        "answer": "Congenital malformations, low birthweight, and sudden infant death syndrome",
+        "doc_id": "Obstentrics_Williams_17"
+    },
+    {
+        "question": "What percentage of maternal deaths are considered preventable in white women according to Berg and colleagues?",
+        "answer": "Up to a third",
+        "doc_id": "Obstentrics_Williams_24"
+    },
+    {
+        "question": "What percentage of maternal deaths are considered preventable in black women according to Berg and colleagues?",
+        "answer": "Up to half",
+        "doc_id": "Obstentrics_Williams_24"
+    },
+    {
+        "question": "What was the estimated percentage of births in the United States insured by Medicaid in 2010?",
+        "answer": "48 percent",
+        "doc_id": "Obstentrics_Williams_29"
+    },
+    {
+        "question": "What is the literal translation of the term 'pathology'?",
+        "answer": "Pathology literally translates to the study of suffering (Greek pathos = suffering, logos = study).",
+        "doc_id": "Pathology_Robbins_0"
+    },
+    {
+        "question": "Who asserted that disease originates at the cellular level?",
+        "answer": "Virchow asserted that disease originates at the cellular level.",
+        "doc_id": "Pathology_Robbins_0"
+    },
+    {
+        "question": "What percentage of the human genome consists of protein-encoding genes?",
+        "answer": "Only roughly 1.5% of the human genome consists of protein-encoding genes.",
+        "doc_id": "Pathology_Robbins_2"
+    },
+    {
+        "question": "Approximately how many protein-encoding genes are in the human genome?",
+        "answer": "There are only roughly 20,000 protein-encoding genes in the human genome.",
+        "doc_id": "Pathology_Robbins_2"
+    },
+    {
+        "question": "What percentage of the human genome is ultimately transcribed?",
+        "answer": "More than 85% of the human genome is ultimately transcribed.",
+        "doc_id": "Pathology_Robbins_3"
+    },
+    {
+        "question": "What are the two most common forms of DNA variation in the human genome?",
+        "answer": "The two most common forms of DNA variation in the human genome are single-nucleotide polymorphisms (SNPs) and copy number variations (CNVs).",
+        "doc_id": "Pathology_Robbins_8"
+    },
+    {
+        "question": "What percentage of DNA is identical between any two humans?",
+        "answer": "Any two humans are typically >99.5% DNA-identical.",
+        "doc_id": "Pathology_Robbins_8"
+    },
+    {
+        "question": "What is epigenetics?",
+        "answer": "Epigenetics refers to heritable changes in gene expression that are not caused by alterations in DNA sequence.",
+        "doc_id": "Pathology_Robbins_12"
+    },
+    {
+        "question": "What are the two basic forms of nuclear chromatin?",
+        "answer": "Nuclear chromatin exists in two basic forms: (1) histochemically dense and transcriptionally inactive heterochromatin and (2) histochemically dispersed and transcriptionally active euchromatin.",
+        "doc_id": "Pathology_Robbins_14"
+    },
+    {
+        "question": "What effect does DNA methylation typically have on gene expression?",
+        "answer": "High levels of DNA methylation in gene regulatory elements typically result in chromatin condensation and transcriptional silencing.",
+        "doc_id": "Pathology_Robbins_15"
+    },
+    {
+        "question": "What is the effect of histone acetylation on chromatin structure?",
+        "answer": "Histone acetylation of lysine residues tends to open up chromatin and increase transcription.",
+        "doc_id": "Pathology_Robbins_16"
+    },
+    {
+        "question": "What are microRNAs (miRNAs)?",
+        "answer": "Micro-RNAs (miRNAs) are relatively short RNAs (22 nucleotides on average) that function primarily to modulate the translation of target mRNAs into their corresponding proteins.",
+        "doc_id": "Pathology_Robbins_18"
+    },
+    {
+        "question": "Approximately how many miRNA genes does the human genome contain?",
+        "answer": "The human genome contains almost 6000 miRNA genes.",
+        "doc_id": "Pathology_Robbins_19"
+    },
+    {
+        "question": "What is the role of XIST in X chromosome inactivation?",
+        "answer": "XIST is transcribed from the X chromosome and forms a repressive 'cloak' on the X chromosome from which it is transcribed, resulting in gene silencing.",
+        "doc_id": "Pathology_Robbins_21"
+    },
+    {
+        "question": "What is CRISPR-Cas9 and what is its origin?",
+        "answer": "CRISPR-Cas9 is a genome editing system derived from clustered regularly interspaced short palindromic repeats (CRISPRs) and Cas (CRISPR-associated genes), which are linked genetic elements that endow prokaryotes with a form of acquired immunity to phages and plasmids.",
+        "doc_id": "Pathology_Robbins_25"
+    },
+    {
+        "question": "What are the two main repair mechanisms after CRISPR-Cas9 creates a DNA break?",
+        "answer": "The two repair mechanisms are non-homologous end joining (NHEJ), which often introduces disruptive insertions or deletions, and homologous DNA recombination (HDR), which can introduce precise changes in DNA sequence.",
+        "doc_id": "Pathology_Robbins_29"
+    },
+    {
+        "question": "What percentage of the human genome is composed of mobile genetic elements (transposons)?",
+        "answer": "More than one-third of the human genome is composed of mobile genetic elements (transposons).",
+        "doc_id": "Pathology_Robbins_7"
+    },
+    {
+        "question": "What percentage of CNVs involve gene-coding sequences?",
+        "answer": "Approximately 50% of CNVs involve gene-coding sequences.",
+        "doc_id": "Pathology_Robbins_11"
+    },
+    {
+        "question": "What is the relationship between DNA sequence identity between humans and chimpanzees?",
+        "answer": "Humans are 99% sequence-identical with chimpanzees.",
+        "doc_id": "Pathology_Robbins_8"
+    },
+    {
+        "question": "What is the function of nucleosomes in the cell?",
+        "answer": "Nucleosomes are structures that pack genomic DNA, composed of DNA segments wrapped around a central core of proteins called histones, forming the structure generically called chromatin.",
+        "doc_id": "Pathology_Robbins_14"
+    },
+    {
+        "question": "What are the two mechanisms of cell death?",
+        "answer": "The two mechanisms of cell death are necrosis and apoptosis.",
+        "doc_id": "Pathoma_Husain_11"
+    },
+    {
+        "question": "What is the characteristic feature of reversible cell injury?",
+        "answer": "The hallmark of reversible injury is cellular swelling.",
+        "doc_id": "Pathoma_Husain_9"
+    },
+    {
+        "question": "What pattern of necrosis is characteristic of brain infarction?",
+        "answer": "Liquefactive necrosis is characteristic of brain infarction, where proteolytic enzymes from microglial cells liquefy the brain.",
+        "doc_id": "Pathoma_Husain_12"
+    },
+    {
+        "question": "Which pattern of necrosis has a 'cottage cheese-like' appearance?",
+        "answer": "Caseous necrosis has a 'cottage cheese-like' appearance and is characteristic of granulomatous inflammation due to tuberculous or fungal infection.",
+        "doc_id": "Pathoma_Husain_13"
+    },
+    {
+        "question": "What is the example of Barrett esophagus demonstrating?",
+        "answer": "Barrett esophagus demonstrates metaplasia, where acid reflux from the stomach causes metaplasia of the normal nonkeratinizing squamous epithelium to nonciliated, mucin-producing columnar cells that are better able to handle the stress of acid.",
+        "doc_id": "Pathoma_Husain_2"
+    },
+    {
+        "question": "What is the difference between dystrophic and metastatic calcification?",
+        "answer": "In dystrophic calcification, necrotic tissue acts as a nidus for calcification in the setting of normal serum calcium and phosphate. Metastatic calcification occurs when high serum calcium or phosphate levels lead to calcium deposition in normal tissues.",
+        "doc_id": "Pathoma_Husain_14"
+    },
+    {
+        "question": "Which tissues undergo hypertrophy but not hyperplasia?",
+        "answer": "Permanent tissues such as cardiac muscle, skeletal muscle, and nerve cannot make new cells and undergo hypertrophy only.",
+        "doc_id": "Pathoma_Husain_0"
+    },
+    {
+        "question": "What happens in free radical injury caused by carbon tetrachloride (CCl4)?",
+        "answer": "Carbon tetrachloride is converted to CCl3 free radical by P450 system of hepatocytes, resulting in cell injury with swelling of RER and detachment of ribosomes, impairing protein synthesis. Decreased apolipoproteins lead to fatty change in the liver.",
+        "doc_id": "Pathoma_Husain_19"
+    },
+    {
+        "question": "What is the shared feature of all types of amyloid proteins?",
+        "answer": "All amyloid proteins share the feature of Congo red staining and apple-green birefringence when viewed microscopically under polarized light.",
+        "doc_id": "Pathoma_Husain_20"
+    },
+    {
+        "question": "What is the relationship between Down syndrome and Alzheimer's disease?",
+        "answer": "The gene for β-APP (β-amyloid precursor protein) is present on chromosome 21. Most individuals with Down syndrome (trisomy 21) develop Alzheimer disease by the age of 40 (early-onset).",
+        "doc_id": "Pathoma_Husain_23"
+    },
+    {
+        "question": "What are the key processes involved in atrophy?",
+        "answer": "Atrophy occurs via a decrease in the size and number of cells. Decrease in cell number occurs via apoptosis. Decrease in cell size occurs via ubiquitin-proteosome degradation of the cytoskeleton and autophagy of cellular components.",
+        "doc_id": "Pathoma_Husain_1"
+    },
+    {
+        "question": "What is the role of Toll-like receptors (TLRs) in inflammation?",
+        "answer": "Toll-like receptors are present on cells of the innate immune system and are activated by pathogen-associated molecular patterns (PAMPs). TLR activation results in upregulation of NF-κB, a nuclear transcription factor that activates immune response genes leading to production of multiple immune mediators.",
+        "doc_id": "Pathoma_Husain_26"
+    },
+    {
+        "question": "What are the three pathways of complement activation?",
+        "answer": "The three pathways of complement activation are: 1) Classical pathway - C1 binds IgG or IgM that is bound to antigen; 2) Alternative pathway - Microbial products directly activate complement; 3) Mannose-binding lectin (MBL) pathway - MBL binds to mannose on microorganisms and activates complement.",
+        "doc_id": "Pathoma_Husain_27"
+    },
+    {
+        "question": "What are the products of cyclooxygenase in the arachidonic acid pathway?",
+        "answer": "Cyclooxygenase produces prostaglandins (PG). PGI2, PGD2, and PGE2 mediate vasodilation and increased vascular permeability. PGE also mediates pain and fever.",
+        "doc_id": "Pathoma_Husain_26"
+    },
+    {
+        "question": "What is the hallmark of irreversible cellular injury?",
+        "answer": "The hallmark of irreversible injury is membrane damage.",
+        "doc_id": "Pathoma_Husain_9"
+    },
+    {
+        "question": "What is Rohypnol classified as under the controlled substances framework?",
+        "answer": "Flunitrazepam (Rohypnol) is classified as a controlled substance where all nonresearch use is illegal under federal law.",
+        "doc_id": "Pharmacology_Katzung_0"
+    },
+    {
+        "question": "Which opioid medications contain oxycodone?",
+        "answer": "Oxycodone (dihydroxycodeinone) is a component of Oxycontin, Percodan, Percocet, Roxicodone, and Tylox.",
+        "doc_id": "Pharmacology_Katzung_0"
+    },
+    {
+        "question": "What stimulant medications are listed in the text?",
+        "answer": "Stimulants listed include amphetamine complex (Biphetamine), amphetamine salts (Adderall), dextroamphetamine (Dexedrine, Procentra), lisdexamfetamine (Vyvanse), methamphetamine (Desoxyn), and methylphenidate (Ritalin, Concerta, Methylin, Daytrana, Medadate).",
+        "doc_id": "Pharmacology_Katzung_1"
+    },
+    {
+        "question": "Which benzodiazepines are mentioned in the text?",
+        "answer": "Benzodiazepines mentioned include alprazolam (Xanax), chlordiazepoxide (Librium), clobazam (Onfi), clonazepam (Klonopin), clorazepate (Tranxene), diazepam (Valium), estazolam, flurazepam (Dalmane), lorazepam (Ativan), midazolam (Versed), oxazepam, quazepam (Doral), temazepam (Restoril), and triazolam (Halcion).",
+        "doc_id": "Pharmacology_Katzung_3"
+    },
+    {
+        "question": "What is the definition of pharmacology according to the text?",
+        "answer": "Pharmacology can be defined as the study of substances that interact with living systems through chemical processes. These interactions usually occur by binding of the substance to regulatory molecules and activating or inhibiting normal body processes.",
+        "doc_id": "Pharmacology_Katzung_6"
+    },
+    {
+        "question": "What is toxicology according to the text?",
+        "answer": "Toxicology is the branch of pharmacology that deals with the undesirable effects of chemicals on living systems, from individual cells to humans to complex ecosystems.",
+        "doc_id": "Pharmacology_Katzung_7"
+    },
+    {
+        "question": "What are the major areas of study in pharmacology?",
+        "answer": "The major areas include medical pharmacology and toxicology (studying actions of drugs on individual organisms), and environmental toxicology (concerned with effects of chemicals on organisms and their survival in groups and as species). Medical pharmacology includes pharmacokinetics (absorption, distribution, and elimination of drugs) and pharmacodynamics (actions of chemicals on the organism).",
+        "doc_id": "Pharmacology_Katzung_8"
+    },
+    {
+        "question": "What is a drug receptor?",
+        "answer": "A receptor is a specific target molecule that plays a regulatory role in the biologic system with which a drug interacts as an agonist (activator) or antagonist (inhibitor).",
+        "doc_id": "Pharmacology_Katzung_18"
+    },
+    {
+        "question": "What is Paracelsus' famous statement about poisons?",
+        "answer": "Paracelsus (1493-1541) famously stated that \"the dose makes the poison,\" meaning that any substance can be harmful if taken in the wrong dosage.",
+        "doc_id": "Pharmacology_Katzung_18"
+    },
+    {
+        "question": "What is the typical molecular weight range for most drugs?",
+        "answer": "Most drugs have molecular weights between 100 and 1000.",
+        "doc_id": "Pharmacology_Katzung_22"
+    },
+    {
+        "question": "What are the three major types of chemical bonds through which drugs interact with receptors?",
+        "answer": "The three major types of chemical bonds are covalent, electrostatic, and hydrophobic.",
+        "doc_id": "Pharmacology_Katzung_24"
+    },
+    {
+        "question": "Why does aspirin's effect on platelet aggregation last long after the drug has disappeared from the bloodstream?",
+        "answer": "The covalent bond formed between the acetyl group of acetylsalicylic acid (aspirin) and cyclooxygenase is not readily broken. The effect lasts long after free acetylsalicylic acid has disappeared from the bloodstream (about 15 minutes) and is reversed only by the synthesis of new enzyme in new platelets, a process that takes several days.",
+        "doc_id": "Pharmacology_Katzung_24"
+    },
+    {
+        "question": "What is chirality in drug molecules?",
+        "answer": "Chirality (stereoisomerism) refers to the property where more than half of all useful drugs can exist as enantiomeric pairs - molecules that are mirror images of each other. In most cases, one enantiomer is much more potent than its mirror image, reflecting a better fit to the receptor molecule.",
+        "doc_id": "Pharmacology_Katzung_27"
+    },
+    {
+        "question": "What is the issue with the clinical use of racemic mixtures of drugs?",
+        "answer": "Most studies of clinical efficacy and drug elimination in humans have been carried out with racemic mixtures rather than separate enantiomers. Only a small percentage of chiral drugs are marketed as the active isomer, meaning most patients receive drug doses of which 50% is less active or inactive.",
+        "doc_id": "Pharmacology_Katzung_30"
+    },
+    {
+        "question": "What was administered via IV to the 78-year-old woman with suspected aspirin overdose?",
+        "answer": "Sodium bicarbonate was administered via IV after blood gas results were reported.",
+        "doc_id": "Pharmacology_Katzung_5"
+    },
+    {
+        "question": "What recent molecular biological developments might provide the next major wave of advances in therapeutics?",
+        "answer": "Small interfering RNAs (siRNAs), micro-RNAs (miRNAs), and antisense oligonucleotides (ANOs) that can interfere with protein synthesis, gene readout, and RNA transcription with extreme selectivity may provide the next major wave of advances in therapeutics.",
+        "doc_id": "Pharmacology_Katzung_14"
+    },
+    {
+        "question": "What are the four general groups of membrane transporters described in the text?",
+        "answer": "Water channels, ion channels, solute carriers, and adenosine triphosphate (ATP)-dependent transporters.",
+        "doc_id": "Physiology_Levy_30"
+    },
+    {
+        "question": "What is the primary energy source for cells?",
+        "answer": "Adenosine triphosphate (ATP). The text states that cells derive energy from the hydrolysis of ATP, which would be depleted in most cells in less than 1 minute if not replenished.",
+        "doc_id": "Physiology_Levy_4"
+    },
+    {
+        "question": "What are the three main storage forms of cellular fuels mentioned in the text?",
+        "answer": "Triglycerides (stored in adipose tissue), glycogen (stored in the liver and skeletal muscle), and protein.",
+        "doc_id": "Physiology_Levy_4"
+    },
+    {
+        "question": "What are the primary functions of the liver in maintaining cellular fuel levels?",
+        "answer": "The liver converts precursors into fuel storage forms (e.g., glucose → glycogen) when food is ingested, and converts storage forms to cellular fuels during fasting (e.g., glycogen → glucose and amino acids → glucose).",
+        "doc_id": "Physiology_Levy_6"
+    },
+    {
+        "question": "What distinguishes eukaryotic cells from prokaryotic cells?",
+        "answer": "Eukaryotic cells are distinguished from prokaryotic cells by the presence of a membrane-delimited nucleus.",
+        "doc_id": "Physiology_Levy_14"
+    },
+    {
+        "question": "What are the major lipids of the plasma membrane?",
+        "answer": "The major lipids of the plasma membrane are phospholipids and phosphoglycerides.",
+        "doc_id": "Physiology_Levy_18"
+    },
+    {
+        "question": "What important role does cholesterol play in the cell membrane?",
+        "answer": "Cholesterol serves to stabilize the membrane at normal body temperature (37°C). As much as 50% of the lipids found in the membrane can be cholesterol.",
+        "doc_id": "Physiology_Levy_21"
+    },
+    {
+        "question": "What factors determine membrane fluidity?",
+        "answer": "The fluidity of the membrane is determined by temperature and by its lipid composition. As temperature increases, the fluidity of the membrane increases. The presence of unsaturated fatty acyl chains in the phospholipids and glycolipids also increases membrane fluidity.",
+        "doc_id": "Physiology_Levy_22"
+    },
+    {
+        "question": "What are the three classifications of membrane proteins mentioned in the text?",
+        "answer": "Membrane proteins are classified as integral, lipid-anchored, or peripheral.",
+        "doc_id": "Physiology_Levy_24"
+    },
+    {
+        "question": "What is the glycocalyx?",
+        "answer": "The glycocalyx is formed by glycolipids and glycoproteins (lipids and proteins with short chains of sugars or oligosaccharides attached) on the outer surface of the cell membrane. These may be involved in cell recognition and formation of cell-cell interactions.",
+        "doc_id": "Physiology_Levy_28"
+    },
+    {
+        "question": "What percentage of human genes are estimated to code for transporters?",
+        "answer": "Approximately 10% of human genes (≈2000) code for transporters.",
+        "doc_id": "Physiology_Levy_29"
+    },
+    {
+        "question": "What are the important cellular functions of the plasma membrane?",
+        "answer": "The plasma membrane is involved in selective transport of molecules, cell recognition through surface antigens, cell communication through receptors and signal transduction, tissue organization through cell junctions, membrane-dependent enzymatic activity, and determination of cell shape.",
+        "doc_id": "Physiology_Levy_15"
+    },
+    {
+        "question": "Which organs/systems are primarily responsible for maintaining the volume and composition of the extracellular fluid?",
+        "answer": "Epithelial cells in the lungs, gastrointestinal tract, and kidneys are responsible for maintaining the volume and composition of the ECF, while the skin plays a major role in temperature regulation.",
+        "doc_id": "Physiology_Levy_8"
+    },
+    {
+        "question": "What systems are responsible for coordinating and regulating cell, tissue, and organ function?",
+        "answer": "The nervous and endocrine systems coordinate and regulate cell, tissue, and organ function.",
+        "doc_id": "Physiology_Levy_10"
+    },
+    {
+        "question": "What role do the lungs play in maintaining the extracellular fluid?",
+        "answer": "The lungs ensure an adequate supply of O2 to 'burn' the cellular fuels for the production of ATP and excrete the major waste product of this process (i.e., CO2). Because CO2 can affect the pH of the ECF, the lungs work with the kidneys to maintain ECF pH.",
+        "doc_id": "Physiology_Levy_9"
+    },
+    {
+        "question": "What are the severity specifiers for Attention-Deficit/Hyperactivity Disorder?",
+        "answer": "Mild, Moderate, Severe",
+        "doc_id": "Psichiatry_DSM-5_20"
+    },
+    {
+        "question": "What is the code for Other Specified Attention-Deficit/Hyperactivity Disorder?",
+        "answer": "314.01 (F90.8)",
+        "doc_id": "Psichiatry_DSM-5_20"
+    },
+    {
+        "question": "What are the three types of impairment specified for Specific Learning Disorder?",
+        "answer": "With impairment in reading, With impairment in written expression, With impairment in mathematics",
+        "doc_id": "Psichiatry_DSM-5_20"
+    },
+    {
+        "question": "What is the diagnostic code for Developmental Coordination Disorder?",
+        "answer": "315.4 (F82)",
+        "doc_id": "Psichiatry_DSM-5_20"
+    },
+    {
+        "question": "What are the two specifiers for Stereotypic Movement Disorder?",
+        "answer": "With self-injurious behavior, Without self-injurious behavior",
+        "doc_id": "Psichiatry_DSM-5_20"
+    },
+    {
+        "question": "What is the diagnostic code for Tourette's Disorder?",
+        "answer": "307.23 (F95.2)",
+        "doc_id": "Psichiatry_DSM-5_21"
+    },
+    {
+        "question": "What are the specifiers for Persistent (Chronic) Motor or Vocal Tic Disorder?",
+        "answer": "With motor tics only, With vocal tics only",
+        "doc_id": "Psichiatry_DSM-5_21"
+    },
+    {
+        "question": "What course specifiers are used after a 1-year duration of Schizophrenia Spectrum disorders?",
+        "answer": "First episode, currently in acute episode; First episode, currently in partial remission; First episode, currently in full remission; Multiple episodes, currently in acute episode; Multiple episodes, currently in partial remission; Multiple episodes, currently in full remission",
+        "doc_id": "Psichiatry_DSM-5_21"
+    },
+    {
+        "question": "What is the diagnostic code for Schizotypal (Personality) Disorder?",
+        "answer": "301.22 (F21)",
+        "doc_id": "Psichiatry_DSM-5_22"
+    },
+    {
+        "question": "What are the types of Delusional Disorder specified in the DSM-5?",
+        "answer": "Erotomanic type, Grandiose type, Jealous type, Persecutory type, Somatic type, Mixed type, Unspecified type",
+        "doc_id": "Psichiatry_DSM-5_22"
+    },
+    {
+        "question": "What is the diagnostic code for Schizophrenia?",
+        "answer": "295.90 (F20.9)",
+        "doc_id": "Psichiatry_DSM-5_23"
+    },
+    {
+        "question": "What are the subtypes of Schizoaffective Disorder?",
+        "answer": "Bipolar type, Depressive type",
+        "doc_id": "Psichiatry_DSM-5_23"
+    },
+    {
+        "question": "What specifiers apply to Bipolar and Related Disorders?",
+        "answer": "With anxious distress (specify current severity: mild, moderate, moderate-severe, severe); catatonia (use additional code 293.89 [F06.1]); With peripartum onset; With seasonal pattern",
+        "doc_id": "Psichiatry_DSM-5_24"
+    },
+    {
+        "question": "What is the diagnostic code for Cyclothymic Disorder?",
+        "answer": "301.13 (F34.0)",
+        "doc_id": "Psichiatry_DSM-5_25"
+    },
+    {
+        "question": "What are the onset specifiers for Substance/Medication-Induced Bipolar and Related Disorder?",
+        "answer": "With onset during intoxication, With onset during withdrawal",
+        "doc_id": "Psichiatry_DSM-5_25"
+    },
+    {
+        "question": "What is the diagnostic code for Disruptive Mood Dysregulation Disorder?",
+        "answer": "296.99 (F34.8)",
+        "doc_id": "Psichiatry_DSM-5_26"
+    },
+    {
+        "question": "What are the specifiers for single episode Major Depressive Disorder?",
+        "answer": "Mild, Moderate, Severe, With psychotic features, In partial remission, In full remission, Unspecified",
+        "doc_id": "Psichiatry_DSM-5_26"
+    },
+    {
+        "question": "What are the onset specifiers for Persistent Depressive Disorder (Dysthymia)?",
+        "answer": "Early onset, Late onset",
+        "doc_id": "Psichiatry_DSM-5_26"
+    },
+    {
+        "question": "What syndrome patterns are specified for Persistent Depressive Disorder?",
+        "answer": "With pure dysthymic syndrome; With persistent major depressive episode; With intermittent major depressive episodes, with current episode; With intermittent major depressive episodes, without current episode",
+        "doc_id": "Psichiatry_DSM-5_27"
+    },
+    {
+        "question": "What are the specific fear types listed for Specific Phobia?",
+        "answer": "Fear of blood, Fear of injections and transfusions, Fear of other medical care, Fear of injury",
+        "doc_id": "Psichiatry_DSM-5_27"
+    },
+    {
+        "question": "What is the insight specifier for Obsessive-Compulsive and Related Disorders?",
+        "answer": "With good or fair insight, With poor insight, With absent insight/delusional beliefs",
+        "doc_id": "Psichiatry_DSM-5_28"
+    },
+    {
+        "question": "What is the diagnostic code for Body Dysmorphic Disorder?",
+        "answer": "300.7 (F45.22)",
+        "doc_id": "Psichiatry_DSM-5_29"
+    },
+    {
+        "question": "What specifier is unique to Hoarding Disorder?",
+        "answer": "With excessive acquisition",
+        "doc_id": "Psichiatry_DSM-5_29"
+    },
+    {
+        "question": "What is the diagnostic code for Trichotillomania (Hair-Pulling Disorder)?",
+        "answer": "312.39 (F63.2)",
+        "doc_id": "Psichiatry_DSM-5_29"
+    },
+    {
+        "question": "What is the diagnostic code for Reactive Attachment Disorder?",
+        "answer": "313.89 (F94.1)",
+        "doc_id": "Psichiatry_DSM-5_29"
+    },
+    {
+        "question": "What are the specifiers for Posttraumatic Stress Disorder?",
+        "answer": "With dissociative symptoms, With delayed expression",
+        "doc_id": "Psichiatry_DSM-5_30"
+    },
+    {
+        "question": "What are the specifiers for remission in Feeding and Eating Disorders?",
+        "answer": "In partial remission, In full remission",
+        "doc_id": "Psichiatry_DSM-5_31"
+    },
+    {
+        "question": "How is current severity specified for Feeding and Eating Disorders?",
+        "answer": "Mild, Moderate, Severe, Extreme",
+        "doc_id": "Psichiatry_DSM-5_32"
+    },
+    {
+        "question": "What subtypes of Anorexia Nervosa are specified in the DSM-5?",
+        "answer": "Restricting type, Binge-eating/purging type",
+        "doc_id": "Psichiatry_DSM-5_32"
+    },
+    {
+        "question": "What are the pattern specifiers for Enuresis?",
+        "answer": "Nocturnal only, Diurnal only, Nocturnal and diurnal",
+        "doc_id": "Psichiatry_DSM-5_32"
+    },
+    {
+        "question": "What are the duration specifiers for Sleep-Wake Disorders?",
+        "answer": "Episodic, Persistent, Recurrent",
+        "doc_id": "Psichiatry_DSM-5_33"
+    },
+    {
+        "question": "What narcolepsy variants are specified in the DSM-5?",
+        "answer": "Narcolepsy without cataplexy but with hypocretin deficiency, Narcolepsy with cataplexy but without hypocretin deficiency, Autosomal dominant cerebellar ataxia, deafness, and narcolepsy, Autosomal dominant narcolepsy, obesity, and type 2 diabetes, Narcolepsy secondary to another medical condition",
+        "doc_id": "Psichiatry_DSM-5_34"
+    },
+    {
+        "question": "What are the subtypes of Non-Rapid Eye Movement Sleep Arousal Disorders?",
+        "answer": "Sleepwalking type, Sleep terror type",
+        "doc_id": "Psichiatry_DSM-5_34"
+    },
+    {
+        "question": "What behavioral specifiers exist for the Sleepwalking type of Non-Rapid Eye Movement Sleep Arousal Disorder?",
+        "answer": "With sleep-related eating, With sleep-related sexual behavior",
+        "doc_id": "Psichiatry_DSM-5_35"
+    },
+    {
+        "question": "What is the diagnostic code for Restless Legs Syndrome?",
+        "answer": "333.94 (G25.81)",
+        "doc_id": "Psichiatry_DSM-5_35"
+    },
+    {
+        "question": "What are the types of Substance/Medication-Induced Sleep Disorder?",
+        "answer": "Insomnia type, Daytime sleepiness type, Parasomnia type, Mixed type",
+        "doc_id": "Psichiatry_DSM-5_35"
+    },
+    {
+        "question": "What are the duration specifiers for Sexual Dysfunctions?",
+        "answer": "Lifelong, Acquired",
+        "doc_id": "Psichiatry_DSM-5_36"
+    },
+    {
+        "question": "What is the diagnostic code for Female Orgasmic Disorder?",
+        "answer": "302.73 (F52.31)",
+        "doc_id": "Psichiatry_DSM-5_36"
+    },
+    {
+        "question": "What is the unique specifier for Female Orgasmic Disorder?",
+        "answer": "Never experienced an orgasm under any situation",
+        "doc_id": "Psichiatry_DSM-5_37"
+    },
+    {
+        "question": "What are the remission specifiers for Substance-Related and Addictive Disorders?",
+        "answer": "In early remission, In sustained remission",
+        "doc_id": "Psichiatry_DSM-5_38"
+    },
+    {
+        "question": "What is the diagnostic code for mild Alcohol Use Disorder?",
+        "answer": "305.00 (F10.10)",
+        "doc_id": "Psichiatry_DSM-5_39"
+    },
+    {
+        "question": "What are the perceptual disturbance specifiers for Alcohol Withdrawal?",
+        "answer": "Without perceptual disturbances, With perceptual disturbances",
+        "doc_id": "Psichiatry_DSM-5_39"
+    },
+    {
+        "question": "What is the diagnostic code for Caffeine Withdrawal?",
+        "answer": "292.0 (F15.93)",
+        "doc_id": "Psichiatry_DSM-5_39"
+    },
+    {
+        "question": "What special specifiers apply to Opioid Use Disorder?",
+        "answer": "On maintenance therapy, In a controlled environment",
+        "doc_id": "Psichiatry_DSM-5_41"
+    },
+    {
+        "question": "What historical leadership style did surgeons traditionally use in the operating room?",
+        "answer": "Historically, surgeons took sole responsibility for their patients and directed proceedings in the operating room with absolute authority, using a command-and-control style of leadership.",
+        "doc_id": "Surgery_Schwartz_1"
+    },
+    {
+        "question": "According to the text, what is the first and most fundamental principle of leadership?",
+        "answer": "The first and most fundamental principle of leadership is to establish a vision that people can live up to, thus providing direction and purpose to the constituency.",
+        "doc_id": "Surgery_Schwartz_13"
+    },
+    {
+        "question": "Which leadership level is described by Jim Collins as having 'personal humility and professional will'?",
+        "answer": "Level 5 Leader - Collins described this as one whose personal humility and professional will drove team success.",
+        "doc_id": "Surgery_Schwartz_10"
+    },
+    {
+        "question": "What approach does Simon Sinek recommend when trying to generate belief in a vision?",
+        "answer": "Simon Sinek recommends starting with 'why' rather than 'what' or 'how' when trying to generate belief in a vision. This appeals to the emotional response in the limbic brain rather than the analytical neocortex.",
+        "doc_id": "Surgery_Schwartz_21"
+    },
+    {
+        "question": "What did surveyed surgical residents report feeling a lack of confidence in, particularly regarding leadership?",
+        "answer": "Surveyed surgical residents felt a lack of confidence in multiple areas of leadership, particularly in conflict resolution.",
+        "doc_id": "Surgery_Schwartz_2"
+    },
+    {
+        "question": "According to academic chairpersons, which ability was 'fundamental to their success and its absence the cause of their failures'?",
+        "answer": "Emotional intelligence - the chairpersons stated that the ability of emotional intelligence was fundamental to their success and its absence the cause of their failures, regardless of medical knowledge.",
+        "doc_id": "Surgery_Schwartz_3"
+    },
+    {
+        "question": "What are the six core competencies established by the ACGME?",
+        "answer": "The six core competencies are: patient care, medical knowledge, practice-based learning and improvement, interpersonal and communication skills, professionalism, and systems-based practice.",
+        "doc_id": "Surgery_Schwartz_4"
+    },
+    {
+        "question": "Who is quoted as saying 'A leader takes people where they want to go. A great leader takes people where they don't necessarily want to go, but where they ought to be'?",
+        "answer": "Former First Lady Rosalynn Carter is quoted making this observation about leadership.",
+        "doc_id": "Surgery_Schwartz_5"
+    },
+    {
+        "question": "What is the 'flywheel effect' in leadership?",
+        "answer": "The 'flywheel effect' demonstrates the building of momentum with initial steps forward, an accumulation of visible results, realignment of the team in the new direction (accounting for new information and data), and then an accumulation of momentum followed by more steps forward.",
+        "doc_id": "Surgery_Schwartz_26"
+    },
+    {
+        "question": "Which surgeon pioneered antiseptic surgical techniques using carbolic acid?",
+        "answer": "Joseph Lister pioneered antiseptic surgical techniques. He applied Pasteur's germ theory and used carbolic acid dressings and aseptic surgical technique to treat patients.",
+        "doc_id": "Surgery_Schwartz_15"
+    },
+    {
+        "question": "What is Lesch-Nyhan syndrome?",
+        "answer": "Defective purine salvage due to absent HGPRT (hypoxanthine guanine phosphoribosyltransferase), which converts hypoxanthine to IMP and guanine to GMP. Results in excess uric acid production and de novo purine synthesis. X-linked recessive. Findings include intellectual disability, self-mutilation, aggression, hyperuricemia, gout, dystonia, and macrocytosis. Treatment: allopurinol or febuxostat (2nd line).",
+        "doc_id": "First_Aid_Step1_5"
+    },
+    {
+        "question": "What are the types of RNA polymerases in eukaryotes and what do they synthesize?",
+        "answer": "RNA polymerase I makes rRNA (most common type); present only in nucleolus. RNA polymerase II makes mRNA, microRNA (miRNA), and small nuclear RNA (snRNA). RNA polymerase III makes 5S rRNA and tRNA. I, II, and III are numbered in the same order that their products are used in protein synthesis: rRNA, mRNA, then tRNA.",
+        "doc_id": "First_Aid_Step1_10"
+    },
+    {
+        "question": "What is Kartagener syndrome?",
+        "answer": "Primary ciliary dyskinesia - immotile cilia due to a dynein arm defect. Autosomal recessive. Results in decreased male and female fertility due to immotile sperm and dysfunctional fallopian tube cilia, respectively. Can cause bronchiectasis, recurrent sinusitis, chronic ear infections, conductive hearing loss, and situs inversus. Decreased nasal nitric oxide is used as a screening test.",
+        "doc_id": "First_Aid_Step1_22"
+    },
+    {
+        "question": "What is the mechanism of histone acetylation and deacetylation?",
+        "answer": "Histone acetylation: Removal of histone's positive charge leads to relaxed DNA coiling and increased transcription. Histone deacetylation: Removal of acetyl groups leads to tightened DNA coiling and decreased transcription.",
+        "doc_id": "First_Aid_Step1_2"
+    },
+    {
+        "question": "What is the role of nucleosomes in DNA packaging?",
+        "answer": "DNA exists in the condensed, chromatin form to fit into the nucleus. DNA loops twice around a histone octamer to form a nucleosome ('beads on a string'). H1 binds to the nucleosome and to 'linker DNA,' thereby stabilizing the chromatin fiber.",
+        "doc_id": "First_Aid_Step1_1"
+    },
+    {
+        "question": "What are the types of DNA mutations and their relative severity?",
+        "answer": "Severity of damage: silent << missense < nonsense < frameshift. Types of single nucleotide (point) mutations include transition (purine to purine or pyrimidine to pyrimidine) and transversion (purine to pyrimidine or pyrimidine to purine).",
+        "doc_id": "First_Aid_Step1_7"
+    },
+    {
+        "question": "What is the lac operon and how is it regulated?",
+        "answer": "The lac operon is a classic example of a genetic response to an environmental change. When glucose is absent and lactose is available, the lac operon is activated to switch to lactose metabolism. Low glucose increases adenylate cyclase activity leading to increased cAMP generation from ATP, which activates catabolite activator protein (CAP) to increase transcription. High lactose unbinds repressor protein from repressor/operator site to increase transcription.",
+        "doc_id": "First_Aid_Step1_8"
+    },
+    {
+        "question": "What is the mechanism of Na+-K+ ATPase and what inhibits it?",
+        "answer": "Na+-K+ ATPase is located in the plasma membrane with ATP site on cytosolic side. For each ATP consumed, 3 Na+ leave the cell (pump phosphorylated) and 2 K+ enter the cell (pump dephosphorylated). Ouabain (a cardiac glycoside) inhibits by binding to K+ site. Cardiac glycosides (digoxin and digitoxin) directly inhibit the Na+-K+ ATPase, which leads to indirect inhibition of Na+/Ca2+ exchange, increasing intracellular Ca2+ and enhancing cardiac contractility.",
+        "doc_id": "First_Aid_Step1_23"
+    },
+    {
+        "question": "What are the steps of collagen synthesis?",
+        "answer": "Collagen synthesis involves: 1) Translation of collagen α chains (preprocollagen), 2) Hydroxylation of specific proline and lysine residues (requires vitamin C), 3) Glycosylation and formation of procollagen via hydrogen and disulfide bonds, 4) Exocytosis of procollagen into extracellular space, 5) Proteolytic processing to form tropocollagen, 6) Cross-linking via lysine-hydroxylysine bonds to form collagen fibrils.",
+        "doc_id": "First_Aid_Step1_24"
+    },
+    {
+        "question": "What is osteogenesis imperfecta?",
+        "answer": "Genetic bone disorder (brittle bone disease) caused by gene defects (most commonly COL1A1 and COL1A2). Most common form is autosomal dominant with decreased production of otherwise normal type I collagen. Manifestations include multiple fractures after minimal trauma, bone deformities, blue sclerae due to translucent connective tissue over choroidal veins, and some forms have tooth abnormalities (dentinogenesis imperfecta). Treated with bisphosphonates to reduce fracture risk.",
+        "doc_id": "First_Aid_Step1_25"
+    },
+    {
+        "question": "What is the function of tRNA and what is its structure?",
+        "answer": "tRNA is 75-90 nucleotides with cloverleaf form, with anticodon end opposite the 3' aminoacyl end. All tRNAs have CCA at 3' end with chemically modified bases. The T-arm contains T-Ψ-C sequence for ribosome binding. The D-arm contains dihydrouridine residues for aminoacyl-tRNA synthetase recognition. The 5'-CCA-3' is the amino acid acceptor site.",
+        "doc_id": "First_Aid_Step1_13"
+    },
+    {
+        "question": "What are the sites on a ribosome during protein translation?",
+        "answer": "A site = incoming Aminoacyl-tRNA. P site = accommodates growing Peptide. E site = holds Empty tRNA as it Exits (APE).",
+        "doc_id": "First_Aid_Step1_15"
+    },
+    {
+        "question": "What is I-cell disease?",
+        "answer": "I-cell disease (inclusion cell disease/mucolipidosis type II) is an inherited lysosomal storage disorder (autosomal recessive). It involves a defect in N-acetylglucosaminyl-1-phosphotransferase leading to failure of the Golgi to phosphorylate mannose residues on glycoproteins, causing proteins to be secreted extracellularly rather than delivered to lysosomes. Results in coarse facial features, gingival hyperplasia, clouded corneas, restricted joint movements, claw hand deformities, kyphoscoliosis, and high plasma levels of lysosomal enzymes. Often fatal in childhood.",
+        "doc_id": "First_Aid_Step1_18"
+    },
+    {
+        "question": "What are the functions of peroxisomes?",
+        "answer": "Peroxisomes are involved in: β-oxidation of very-long-chain fatty acids (VLCFA), α-oxidation of branched-chain fatty acids, catabolism of amino acids and ethanol, and synthesis of cholesterol, bile acids, and plasmalogens (important membrane phospholipid, especially in white matter of brain).",
+        "doc_id": "First_Aid_Step1_19"
+    },
+    {
+        "question": "What is the role of microRNA in mRNA regulation?",
+        "answer": "mRNA quality control occurs at cytoplasmic processing bodies (P-bodies), which contain exonucleases, decapping enzymes, and microRNAs; mRNAs may be degraded or stored in P-bodies for future translation.",
+        "doc_id": "First_Aid_Step1_10"
+    },
+    {
+        "question": "What is the normal heart rate range?",
+        "answer": "The normal heart rate is 60-100 bpm.",
+        "doc_id": "First_Aid_Step2_3"
+    },
+    {
+        "question": "What does a normal axis in ECG look like?",
+        "answer": "Normal: An upright (positive) QRS in leads I and II (-30 degrees to +105 degrees).",
+        "doc_id": "First_Aid_Step2_4"
+    },
+    {
+        "question": "What is the diagnostic criteria for Left Bundle Branch Block (LBBB)?",
+        "answer": "QRS duration > 120 msec; no R wave in V1; wide, tall R waves in I, V5, and V6.",
+        "doc_id": "First_Aid_Step2_6"
+    },
+    {
+        "question": "What mnemonic is used for LBBB QRS pattern?",
+        "answer": "WiLLiaM MaRRoW: W pattern of QRS in V1-V2 and M pattern of QRS in V3-V6 for LBBB",
+        "doc_id": "First_Aid_Step2_6"
+    },
+    {
+        "question": "What is the Cornell criteria for Left Ventricular Hypertrophy?",
+        "answer": "Amplitude of R in aVL + S in V3 > 28 mm in men or > 20 mm in women.",
+        "doc_id": "First_Aid_Step2_8"
+    },
+    {
+        "question": "What is Kussmaul's sign and what conditions is it associated with?",
+        "answer": "Kussmaul's sign (increase in JVP with inspiration) is associated with right ventricular infarction, postoperative cardiac tamponade, tricuspid regurgitation, constrictive pericarditis.",
+        "doc_id": "First_Aid_Step2_8"
+    },
+    {
+        "question": "What are the characteristics of mitral regurgitation murmur?",
+        "answer": "Mitral regurgitation: Holosystolic murmur; radiation to axillae or to carotids.",
+        "doc_id": "First_Aid_Step2_9"
+    },
+    {
+        "question": "What is the mnemonic for heart auscultation locations?",
+        "answer": "All (Aortic) People (Pulmonic) Try (Tricuspid) McDonald's (Mitral)",
+        "doc_id": "First_Aid_Step2_9"
+    },
+    {
+        "question": "What is the mnemonic for causes of CHF?",
+        "answer": "Hypertension, Endocrine, Anemia, Rheumatic heart disease, Toxins, Failure to take meds, Arrhythmia, Infection, Lung (pulmonary)",
+        "doc_id": "First_Aid_Step2_9"
+    },
+    {
+        "question": "What is pulsus paradoxus and what conditions is it associated with?",
+        "answer": "Pulsus paradoxus (decrease in systolic BP with inspiration) is associated with pericardial tamponade, asthma, COPD, tension pneumothorax, foreign body in airway.",
+        "doc_id": "First_Aid_Step2_10"
+    },
+    {
+        "question": "What is pulsus alternans and what conditions is it associated with?",
+        "answer": "Pulsus alternans (alternating weak and strong pulses) is associated with cardiac tamponade, impaired left ventricular systolic function; poor prognosis.",
+        "doc_id": "First_Aid_Step2_11"
+    },
+    {
+        "question": "What is the treatment for symptomatic sinus bradycardia?",
+        "answer": "Atropine may be used to increase heart rate; pacemaker placement is the definitive treatment in severe cases.",
+        "doc_id": "First_Aid_Step2_13"
+    },
+    {
+        "question": "What are the ECG findings in second-degree AV block Mobitz I/Wenckebach?",
+        "answer": "Progressive PR lengthening until a dropped beat occurs; PR interval then resets.",
+        "doc_id": "First_Aid_Step2_13"
+    },
+    {
+        "question": "What is the most common indication for pacemaker placement?",
+        "answer": "Sick sinus syndrome (SSS)/tachycardia-bradycardia syndrome is the most common indication for pacemaker placement.",
+        "doc_id": "First_Aid_Step2_15"
+    },
+    {
+        "question": "What is the mnemonic for causes of acute atrial fibrillation?",
+        "answer": "PIRATES: Pulmonary disease, Ischemia, Rheumatic heart disease, Anemia/Atrial myxoma, Thyrotoxicosis, Ethanol, Sepsis",
+        "doc_id": "First_Aid_Step2_16"
+    },
+    {
+        "question": "What is the first-line treatment for Torsades de pointes?",
+        "answer": "Correct hypokalemia; withdraw offending drugs. Give magnesium initially and cardiovert if unstable.",
+        "doc_id": "First_Aid_Step2_22"
+    },
+    {
+        "question": "What is the key difference between S3 and S4 gallops?",
+        "answer": "S3 gallop: Dilated cardiomyopathy (floppy ventricle), mitral valve disease. S4 gallop: Hypertension, diastolic dysfunction (stiff ventricle), aortic stenosis.",
+        "doc_id": "First_Aid_Step2_10"
+    },
+    {
+        "question": "How does systolic heart failure differ from diastolic heart failure in terms of echocardiography findings?",
+        "answer": "Systolic: Q waves, decreased EF (< 40%). Diastolic: LVH, normal EF (> 55%).",
+        "doc_id": "First_Aid_Step2_24"
+    },
+    {
+        "question": "What is the progression of symptoms in heart failure?",
+        "answer": "Exertional dyspnea is the earliest and most common presenting symptom and progresses to orthopnea, paroxysmal nocturnal dyspnea (PND), and finally rest dyspnea.",
+        "doc_id": "First_Aid_Step2_25"
+    }
+]
