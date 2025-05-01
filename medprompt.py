@@ -141,12 +141,26 @@ qa_data = [] #synthetic
 with open("final.json") as f:
   qa_data = json.load(f)
 
+# def mkPrompt(question, retrieved_contexts, examples, system_prompt):
+#     context_str = "\n\n".join([ctx["text"] for ctx in retrieved_contexts])
+#     examples_str = "\n\n".join([
+#         f"Q: {ex['question']}\nA: {ex['answer']}" for ex in examples
+#     ])
+#     return f"{system_prompt}\n\n{examples_str}\n\nQ: {question}\nContext:\n{context_str}\nA:"
+
 def mkPrompt(question, retrieved_contexts, examples, system_prompt):
-    context_str = "\n\n".join([ctx["text"] for ctx in retrieved_contexts])
+    context_str = "\n\n".join([f"Context Passage {i+1}:\n{ctx['text']}" for i, ctx in enumerate(retrieved_contexts)])
     examples_str = "\n\n".join([
-        f"Q: {ex['question']}\nA: {ex['answer']}" for ex in examples
+        f"Q: {ex['question']}\nChain-of-thought: {ex['cot']}\nA: {ex['answer']}" for ex in examples
     ])
-    return f"{system_prompt}\n\n{examples_str}\n\nQ: {question}\nContext:\n{context_str}\nA:"
+    return f"""{system_prompt}
+
+{examples_str}
+
+Q: {question}
+{context_str}
+Chain-of-thought:"""
+
 
 from transformers import DPRQuestionEncoder, DPRQuestionEncoderTokenizer
 
@@ -155,9 +169,33 @@ question_encoder = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_enc
 question_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
 
 few_shot_examples = [
-    {"question": "What is the function of the mitochondria?", "cot": "The mitochondria produce ATP through cellular respiration.", "answer": "Energy production"},
-    {"question": "How do beta-blockers help in hypertension?", "cot": "They block adrenaline's effects, reducing heart rate and blood pressure.", "answer": "Reduce heart rate and blood pressure"},
-    # add more
+
+    {
+        "question": "What causes type 1 diabetes?",
+        "cot": "Type 1 diabetes is an autoimmune condition where the body’s immune system attacks and destroys the insulin-producing beta cells in the pancreas. Without insulin, the body can't regulate blood glucose levels.",
+        "answer": "The immune system destroys insulin-producing cells in the pancreas."
+    },
+    {
+        "question": "Why do antibiotics not work on viruses?",
+        "cot": "Antibiotics target specific features of bacteria, such as cell walls or protein synthesis mechanisms. Viruses lack these structures and replicate inside host cells, making antibiotics ineffective.",
+        "answer": "Viruses lack the structures antibiotics target, so they are ineffective."
+    },
+    {
+        "question": "How does a vaccine provide immunity?",
+        "cot": "Vaccines introduce a harmless form of a pathogen or its components, prompting the immune system to create memory cells. These memory cells enable a faster and stronger response if the pathogen is encountered again.",
+        "answer": "They train the immune system to recognize and fight the pathogen in future encounters."
+    },
+    {
+        "question": "What is the function of the mitochondria?",
+        "cot": "The mitochondria are organelles that generate most of the chemical energy needed to power the cell. This energy is produced in the form of ATP through a process called cellular respiration.",
+        "answer": "The mitochondria produce ATP through cellular respiration."
+    },
+    {
+        "question": "How do beta-blockers help in hypertension?",
+        "cot": "Beta-blockers inhibit the effects of adrenaline on the heart. This slows the heartbeat and reduces blood pressure, making them effective for managing hypertension.",
+        "answer": "They lower blood pressure by slowing the heart rate."
+    },
+   
 ]
 
 # !huggingface-cli login
