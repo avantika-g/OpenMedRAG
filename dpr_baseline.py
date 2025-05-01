@@ -13,6 +13,7 @@ from transformers import (
     AutoModelForSequenceClassification,
     AutoTokenizer
 )
+from transformers import DPRQuestionEncoder, DPRQuestionEncoderTokenizer
 from bert_score import score as bert_score
 import json
 
@@ -114,8 +115,6 @@ def mrr(gold_doc_ids, retrieved_doc_ids):
     return 0.0
 
 index_to_doc_id = [example["id"] for example in sampled_dataset]
-
-from transformers import DPRQuestionEncoder, DPRQuestionEncoderTokenizer
 
 results = []
 
