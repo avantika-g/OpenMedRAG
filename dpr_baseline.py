@@ -46,7 +46,6 @@ rag_dataset = sampled_dataset.remove_columns(set(sampled_dataset.column_names) -
 
 dataset_path = "/content/textbook_full_dataset"
 index_path = os.path.join(dataset_path, "faiss_index")
-rag_dataset.save_to_disk(dataset_path)
 
 ctx_encoder = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
 ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
@@ -62,9 +61,7 @@ rag_dataset.add_faiss_index(column="embeddings")
 
 rag_dataset.get_index("embeddings").save(index_path)
 rag_dataset.drop_index("embeddings")
-rag_dataset.save_to_disk(dataset_path)
 
-print("Loading RAG model and retriever...")
 tokenizer = RagTokenizer.from_pretrained("facebook/rag-sequence-nq")
 retriever = RagRetriever.from_pretrained(
     "facebook/rag-sequence-nq",
