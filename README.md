@@ -1,2 +1,2 @@
-# OpenMedRAG
-Finetuned RAG models for open-demain medical question-answering.
+# DORAM-QA
+Finetuned RAG models for open-domain medical question-answering.
