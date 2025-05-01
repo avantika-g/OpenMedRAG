@@ -141,13 +141,6 @@ qa_data = [] #synthetic
 with open("final.json") as f:
   qa_data = json.load(f)
 
-# def mkPrompt(question, retrieved_contexts, examples, system_prompt):
-#     context_str = "\n\n".join([ctx["text"] for ctx in retrieved_contexts])
-#     examples_str = "\n\n".join([
-#         f"Q: {ex['question']}\nA: {ex['answer']}" for ex in examples
-#     ])
-#     return f"{system_prompt}\n\n{examples_str}\n\nQ: {question}\nContext:\n{context_str}\nA:"
-
 def mkPrompt(question, retrieved_contexts, examples, system_prompt):
     context_str = "\n\n".join([f"Context Passage {i+1}:\n{ctx['text']}" for i, ctx in enumerate(retrieved_contexts)])
     examples_str = "\n\n".join([
