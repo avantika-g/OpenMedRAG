@@ -75,7 +75,7 @@ with open('final.json') as f:
 # !huggingface-cli login
 model_name = "meta-llama/Llama-2-7b-chat-hf"
 
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" # only for training
+model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" # for initial tests
 llama_tokenizer = AutoTokenizer.from_pretrained(model_name)
 llama_model = AutoModelForCausalLM.from_pretrained(
     model_name, 
