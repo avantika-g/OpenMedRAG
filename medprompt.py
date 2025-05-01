@@ -23,6 +23,7 @@ from transformers import (
     AutoModelForCausalLM
 )
 from bert_score import score as bert_score
+from transformers import DPRQuestionEncoder, DPRQuestionEncoderTokenizer
 
 # loading the dataset
 full_dataset = load_dataset("MedRAG/textbooks", split="train")
@@ -79,14 +80,11 @@ rag_dataset.save_to_disk(dataset_path)
 
 dataset_path = "./textbook_dataset"
 index_path = os.path.join(dataset_path, "faiss_index")
-print("Saving dataset and FAISS index...")
 rag_dataset.get_index("embeddings").save(index_path)
 rag_dataset.drop_index("embeddings")
 rag_dataset.save_to_disk(dataset_path)
-print(f"Dataset and index saved to {dataset_path}")
 
 # load rag model
-print("Loading RAG model and retriever...")
 tokenizer = RagTokenizer.from_pretrained("facebook/rag-sequence-nq")
 retriever = RagRetriever.from_pretrained(
     "facebook/rag-sequence-nq",
@@ -152,9 +150,6 @@ def mkPrompt(question, retrieved_contexts, examples, system_prompt):
 Q: {question}
 {context_str}
 Chain-of-thought:"""
-
-
-from transformers import DPRQuestionEncoder, DPRQuestionEncoderTokenizer
 
 # dpr question encoder
 question_encoder = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
@@ -278,4 +273,4 @@ for qa in tqdm(qa_data): # small subset: for qa in tqdm(qa_data[:5])
   print(result)
   results.append(result)
 
-print(result)
+print(results)
