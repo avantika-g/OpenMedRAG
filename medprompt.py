@@ -52,7 +52,7 @@ processed_dataset = full_dataset.map(
     with_indices=True
 )
 
-# some error about too many columns?
+
 rag_dataset = processed_dataset.remove_columns(set(processed_dataset.column_names) - {"title", "text"})
 
 # save dataset for retriever
@@ -70,14 +70,13 @@ def embed_texts(batch):
         embeddings = ctx_encoder(**inputs).pooler_output
     return {"embeddings": embeddings.cpu().numpy()}
 
-rag_dataset = rag_dataset.map(embed_texts, batched=True, batch_size=16) # this takes a while. experiment w batch size?
+rag_dataset = rag_dataset.map(embed_texts, batched=True, batch_size=16) 
 rag_dataset.add_faiss_index(column="embeddings")
 
 rag_dataset.get_index("embeddings").save(index_path)
 rag_dataset.drop_index("embeddings")
 rag_dataset.save_to_disk(dataset_path)
 
-# something is wrong here
 dataset_path = "./textbook_dataset"
 index_path = os.path.join(dataset_path, "faiss_index")
 print("Saving dataset and FAISS index...")
@@ -240,7 +239,7 @@ for qa in tqdm(qa_data): # small subset: for qa in tqdm(qa_data[:5])
   print("generated answer: ", generated_answer)
 
   P, R, F1 = bert_score([generated_answer], [reference], lang="en", verbose=False)
-  question_str = question  # or whatever input question is
+  question_str = question  
   question_inputs = tokenizer(question_str, return_tensors="pt")
 
   # dpr question encoder
@@ -252,7 +251,7 @@ for qa in tqdm(qa_data): # small subset: for qa in tqdm(qa_data[:5])
   # top-k passages using retriever and dpr embedding
   retrieved = retriever(
       question_input_ids=question_inputs["input_ids"],
-      question_hidden_states=question_hidden.cpu().numpy(), # must be njmpy
+      question_hidden_states=question_hidden.cpu().numpy(), 
       return_tensors="pt"
   )
   retrieved_doc_ids = retrieved["doc_ids"][0].tolist()
